@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>考研择校助手 · 985/211 计算机方向</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>考研择校助手</h1>
+  <p class="sub">985 / 211 高校 · 计算机方向硕士招生目录 <span id="stats"></span></p>
+</header>
+
+<section class="filters">
+  <div class="row">
+    <input id="f-kw" type="text" placeholder="输入校名或单位代码搜索…">
+    <select id="f-province"><option value="">全部地区</option></select>
+    <select id="f-tag">
+      <option value="all">全部院校</option>
+      <option value="985">985</option>
+      <option value="211">211</option>
+      <option value="zhx">自划线</option>
+    </select>
+  </div>
+  <div class="row">
+    <select id="f-group">
+      <option value="">全部专业类</option>
+      <option value="cs">计算机科学与技术（学硕）</option>
+      <option value="se">软件工程（学硕）</option>
+      <option value="cyb">网络空间安全（学硕）</option>
+      <option value="xx">电子信息（专硕）</option>
+    </select>
+    <select id="f-sort">
+      <option value="sr_rank">按综合排名</option>
+      <option value="sr_cs_rank">按计算机学科排名</option>
+      <option value="quota">按拟招生人数</option>
+      <option value="name">按地区/校名</option>
+    </select>
+    <label class="chk"><input id="f-408" type="checkbox"> 考 408</label>
+    <label class="chk"><input id="f-xxfs" type="checkbox"> 仅全日制</label>
+    <button id="btn-reset" class="ghost">重置</button>
+  </div>
+</section>
+
+<main>
+  <div id="list" class="cards"></div>
+  <div id="empty" class="empty hidden">没有符合条件的院校</div>
+</main>
+
+<div id="modal-mask" class="modal-mask hidden">
+  <div class="modal">
+    <button id="modal-close" class="ghost close">关闭</button>
+    <div id="modal-body">加载中…</div>
+  </div>
+</div>
+
+<footer>数据来源：研招网硕士专业目录 &amp; 软科中国大学排名/最好学科排名 · 仅供择校参考，以官方简章为准</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

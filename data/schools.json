@@ -1,0 +1,6033 @@
+[
+ {
+  "name": "清华大学",
+  "province": "北京",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 1,
+  "sr_cs_rank": 1,
+  "sr_cs_score": 1615,
+  "sr_se_rank": 3,
+  "sr_se_score": 972,
+  "sr_cyb_rank": 3,
+  "sr_cyb_score": 731
+ },
+ {
+  "name": "北京大学",
+  "province": "北京",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 2,
+  "sr_cs_rank": 2,
+  "sr_cs_score": 1203,
+  "sr_se_rank": 7,
+  "sr_se_score": 519
+ },
+ {
+  "name": "浙江大学",
+  "province": "浙江",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 3,
+  "sr_cs_rank": 4,
+  "sr_cs_score": 1020,
+  "sr_se_rank": 11,
+  "sr_se_score": 351,
+  "sr_cyb_rank": 4,
+  "sr_cyb_score": 677
+ },
+ {
+  "name": "上海交通大学",
+  "province": "上海",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 4,
+  "sr_cs_rank": 3,
+  "sr_cs_score": 1021,
+  "sr_cyb_rank": 4,
+  "sr_cyb_score": 677
+ },
+ {
+  "name": "复旦大学",
+  "province": "上海",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 5,
+  "sr_cs_rank": 27,
+  "sr_cs_score": 362,
+  "sr_cyb_rank": 12,
+  "sr_cyb_score": 350
+ },
+ {
+  "name": "南京大学",
+  "province": "江苏",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 6,
+  "sr_cs_rank": 11,
+  "sr_cs_score": 625,
+  "sr_se_rank": 12,
+  "sr_se_score": 332
+ },
+ {
+  "name": "中国科学技术大学",
+  "province": "安徽",
+  "category": "理工",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 7,
+  "sr_cs_rank": 10,
+  "sr_cs_score": 661,
+  "sr_se_rank": 14,
+  "sr_se_score": 270,
+  "sr_cyb_rank": 18,
+  "sr_cyb_score": 256
+ },
+ {
+  "name": "华中科技大学",
+  "province": "湖北",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 8,
+  "sr_cs_rank": 7,
+  "sr_cs_score": 890,
+  "sr_cyb_rank": 23,
+  "sr_cyb_score": 209
+ },
+ {
+  "name": "武汉大学",
+  "province": "湖北",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 9,
+  "sr_cs_rank": 22,
+  "sr_cs_score": 389,
+  "sr_se_rank": 18,
+  "sr_se_score": 214,
+  "sr_cyb_rank": 10,
+  "sr_cyb_score": 508
+ },
+ {
+  "name": "西安交通大学",
+  "province": "陕西",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 10,
+  "sr_cs_rank": 20,
+  "sr_cs_score": 453,
+  "sr_cyb_rank": 20,
+  "sr_cyb_score": 229
+ },
+ {
+  "name": "中山大学",
+  "province": "广东",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 11,
+  "sr_cs_rank": 16,
+  "sr_cs_score": 530,
+  "sr_se_rank": 17,
+  "sr_se_score": 230,
+  "sr_cyb_rank": 19,
+  "sr_cyb_score": 241
+ },
+ {
+  "name": "北京航空航天大学",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 12,
+  "sr_cs_rank": 6,
+  "sr_cs_score": 900,
+  "sr_se_rank": 2,
+  "sr_se_score": 997,
+  "sr_cyb_rank": 13,
+  "sr_cyb_score": 315
+ },
+ {
+  "name": "东南大学",
+  "province": "江苏",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 13,
+  "sr_cs_rank": 19,
+  "sr_cs_score": 457,
+  "sr_se_rank": 44,
+  "sr_se_score": 65,
+  "sr_cyb_rank": 16,
+  "sr_cyb_score": 295
+ },
+ {
+  "name": "北京理工大学",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 14,
+  "sr_cs_rank": 15,
+  "sr_cs_score": 536,
+  "sr_cyb_rank": 2,
+  "sr_cyb_score": 924
+ },
+ {
+  "name": "四川大学",
+  "province": "四川",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 15,
+  "sr_cs_rank": 26,
+  "sr_cs_score": 375,
+  "sr_se_rank": 39,
+  "sr_se_score": 74,
+  "sr_cyb_rank": 15,
+  "sr_cyb_score": 303
+ },
+ {
+  "name": "哈尔滨工业大学",
+  "province": "黑龙江",
+  "category": "理工",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 16,
+  "sr_cs_rank": 8,
+  "sr_cs_score": 825,
+  "sr_se_rank": 20,
+  "sr_se_score": 198,
+  "sr_cyb_rank": 21,
+  "sr_cyb_score": 221
+ },
+ {
+  "name": "同济大学",
+  "province": "上海",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 17,
+  "sr_cs_rank": 24,
+  "sr_cs_score": 387,
+  "sr_se_rank": 23,
+  "sr_se_score": 159
+ },
+ {
+  "name": "中国人民大学",
+  "province": "北京",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 18,
+  "sr_cs_rank": 37,
+  "sr_cs_score": 252,
+  "sr_se_rank": 43,
+  "sr_se_score": 69
+ },
+ {
+  "name": "北京师范大学",
+  "province": "北京",
+  "category": "师范",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 19,
+  "sr_cs_rank": 49,
+  "sr_cs_score": 172
+ },
+ {
+  "name": "天津大学",
+  "province": "天津",
+  "category": "理工",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 20,
+  "sr_cs_rank": 28,
+  "sr_cs_score": 340,
+  "sr_se_rank": 4,
+  "sr_se_score": 621,
+  "sr_cyb_rank": 39,
+  "sr_cyb_score": 57
+ },
+ {
+  "name": "南开大学",
+  "province": "天津",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 21,
+  "sr_cs_rank": 48,
+  "sr_cs_score": 175,
+  "sr_se_rank": 53,
+  "sr_se_score": 53,
+  "sr_cyb_rank": 13,
+  "sr_cyb_score": 315
+ },
+ {
+  "name": "山东大学",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 22,
+  "sr_cs_rank": 39,
+  "sr_cs_score": 246,
+  "sr_se_rank": 5,
+  "sr_se_score": 589,
+  "sr_cyb_rank": 11,
+  "sr_cyb_score": 389
+ },
+ {
+  "name": "西北工业大学",
+  "province": "陕西",
+  "category": "理工",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 23,
+  "sr_cs_rank": 5,
+  "sr_cs_score": 1016,
+  "sr_se_rank": 25,
+  "sr_se_score": 138
+ },
+ {
+  "name": "厦门大学",
+  "province": "福建",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 24,
+  "sr_cs_rank": 43,
+  "sr_cs_score": 202
+ },
+ {
+  "name": "中南大学",
+  "province": "湖南",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 25,
+  "sr_cs_rank": 21,
+  "sr_cs_score": 420
+ },
+ {
+  "name": "吉林大学",
+  "province": "吉林",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 26,
+  "sr_cs_rank": 40,
+  "sr_cs_score": 223,
+  "sr_se_rank": 59,
+  "sr_se_score": 44
+ },
+ {
+  "name": "中国农业大学",
+  "province": "北京",
+  "category": "农业",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 27,
+  "sr_cs_rank": 76,
+  "sr_cs_score": 96
+ },
+ {
+  "name": "大连理工大学",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 28,
+  "sr_cs_rank": 35,
+  "sr_cs_score": 258,
+  "sr_se_rank": 6,
+  "sr_se_score": 585
+ },
+ {
+  "name": "华东师范大学",
+  "province": "上海",
+  "category": "师范",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 29,
+  "sr_cs_rank": 46,
+  "sr_cs_score": 181,
+  "sr_se_rank": 1,
+  "sr_se_score": 1216
+ },
+ {
+  "name": "华南理工大学",
+  "province": "广东",
+  "category": "理工",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 30,
+  "sr_cs_rank": 30,
+  "sr_cs_score": 324,
+  "sr_se_rank": 37,
+  "sr_se_score": 84
+ },
+ {
+  "name": "电子科技大学",
+  "province": "四川",
+  "category": "理工",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 31,
+  "sr_cs_rank": 13,
+  "sr_cs_score": 577,
+  "sr_se_rank": 9,
+  "sr_se_score": 387,
+  "sr_cyb_rank": 7,
+  "sr_cyb_score": 633
+ },
+ {
+  "name": "湖南大学",
+  "province": "湖南",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 32,
+  "sr_cs_rank": 17,
+  "sr_cs_score": 510,
+  "sr_cyb_rank": 28,
+  "sr_cyb_score": 122
+ },
+ {
+  "name": "重庆大学",
+  "province": "重庆",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 33,
+  "sr_cs_rank": 41,
+  "sr_cs_score": 220,
+  "sr_se_rank": 15,
+  "sr_se_score": 255
+ },
+ {
+  "name": "南方科技大学",
+  "province": "广东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 34
+ },
+ {
+  "name": "北京科技大学",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 35,
+  "sr_cs_rank": 45,
+  "sr_cs_score": 189
+ },
+ {
+  "name": "南京航空航天大学",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 36,
+  "sr_cs_rank": 33,
+  "sr_cs_score": 308,
+  "sr_se_rank": 26,
+  "sr_se_score": 137,
+  "sr_cyb_rank": 27,
+  "sr_cyb_score": 128
+ },
+ {
+  "name": "南京理工大学",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 37,
+  "sr_cs_rank": 34,
+  "sr_cs_score": 297,
+  "sr_se_rank": 32,
+  "sr_se_score": 112,
+  "sr_cyb_rank": 25,
+  "sr_cyb_score": 172
+ },
+ {
+  "name": "兰州大学",
+  "province": "甘肃",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 38,
+  "sr_cs_rank": 58,
+  "sr_cs_score": 142
+ },
+ {
+  "name": "东北大学",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 39,
+  "sr_cs_rank": 22,
+  "sr_cs_score": 389,
+  "sr_se_rank": 19,
+  "sr_se_score": 212
+ },
+ {
+  "name": "西安电子科技大学",
+  "province": "陕西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 40,
+  "sr_cs_rank": 12,
+  "sr_cs_score": 588,
+  "sr_se_rank": 16,
+  "sr_se_score": 240,
+  "sr_cyb_rank": 1,
+  "sr_cyb_score": 1062
+ },
+ {
+  "name": "北京交通大学",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 41,
+  "sr_cs_rank": 36,
+  "sr_cs_score": 253,
+  "sr_se_rank": 36,
+  "sr_se_score": 99,
+  "sr_cyb_rank": 22,
+  "sr_cyb_score": 214
+ },
+ {
+  "name": "上海科技大学",
+  "province": "上海",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 42,
+  "sr_cs_rank": 81,
+  "sr_cs_score": 84
+ },
+ {
+  "name": "苏州大学",
+  "province": "江苏",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 43,
+  "sr_cs_rank": 54,
+  "sr_cs_score": 154,
+  "sr_se_rank": 51,
+  "sr_se_score": 54
+ },
+ {
+  "name": "华东理工大学",
+  "province": "上海",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 44,
+  "sr_cs_rank": 89,
+  "sr_cs_score": 75
+ },
+ {
+  "name": "哈尔滨工程大学",
+  "province": "黑龙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 45,
+  "sr_cs_rank": 69,
+  "sr_cs_score": 122,
+  "sr_se_rank": 65,
+  "sr_se_score": 32
+ },
+ {
+  "name": "东北师范大学",
+  "province": "吉林",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 46,
+  "sr_cs_rank": 124,
+  "sr_cs_score": 46
+ },
+ {
+  "name": "华中农业大学",
+  "province": "湖北",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 47
+ },
+ {
+  "name": "中国石油大学（北京）",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 48
+ },
+ {
+  "name": "南京农业大学",
+  "province": "江苏",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 49
+ },
+ {
+  "name": "郑州大学",
+  "province": "河南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 50,
+  "sr_cs_rank": 61,
+  "sr_cs_score": 137,
+  "sr_se_rank": 21,
+  "sr_se_score": 164
+ },
+ {
+  "name": "暨南大学",
+  "province": "广东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 51,
+  "sr_cs_rank": 96,
+  "sr_cs_score": 68,
+  "sr_cyb_rank": 9,
+  "sr_cyb_score": 538
+ },
+ {
+  "name": "南京师范大学",
+  "province": "江苏",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 52,
+  "sr_cs_rank": 138,
+  "sr_cs_score": 41
+ },
+ {
+  "name": "武汉理工大学",
+  "province": "湖北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 52,
+  "sr_cs_rank": 80,
+  "sr_cs_score": 85,
+  "sr_se_rank": 40,
+  "sr_se_score": 72
+ },
+ {
+  "name": "中国矿业大学",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 54,
+  "sr_cs_rank": 65,
+  "sr_cs_score": 130,
+  "sr_se_rank": 76,
+  "sr_se_score": 26
+ },
+ {
+  "name": "江南大学",
+  "province": "江苏",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 55,
+  "sr_cs_rank": 67,
+  "sr_cs_score": 125
+ },
+ {
+  "name": "上海大学",
+  "province": "上海",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 56,
+  "sr_cs_rank": 66,
+  "sr_cs_score": 129,
+  "sr_se_rank": 60,
+  "sr_se_score": 42
+ },
+ {
+  "name": "中国海洋大学",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 57,
+  "sr_cs_rank": 70,
+  "sr_cs_score": 111
+ },
+ {
+  "name": "华中师范大学",
+  "province": "湖北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 58,
+  "sr_cs_rank": 59,
+  "sr_cs_score": 141
+ },
+ {
+  "name": "西南交通大学",
+  "province": "四川",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 59,
+  "sr_cs_rank": 52,
+  "sr_cs_score": 168
+ },
+ {
+  "name": "中国石油大学（华东）",
+  "province": "山东",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 60,
+  "sr_cs_rank": 113,
+  "sr_cs_score": 50,
+  "sr_se_rank": 65,
+  "sr_se_score": 32
+ },
+ {
+  "name": "中国地质大学（武汉）",
+  "province": "湖北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 61,
+  "sr_cs_rank": 56,
+  "sr_cs_score": 149,
+  "sr_se_rank": 24,
+  "sr_se_score": 141
+ },
+ {
+  "name": "陕西师范大学",
+  "province": "陕西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 62,
+  "sr_cs_rank": 85,
+  "sr_cs_score": 80,
+  "sr_se_rank": 65,
+  "sr_se_score": 32
+ },
+ {
+  "name": "北京邮电大学",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 63,
+  "sr_cs_rank": 14,
+  "sr_cs_score": 549,
+  "sr_se_rank": 13,
+  "sr_se_score": 296,
+  "sr_cyb_rank": 8,
+  "sr_cyb_score": 585
+ },
+ {
+  "name": "浙江工业大学",
+  "province": "浙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 64,
+  "sr_cs_rank": 51,
+  "sr_cs_score": 171
+ },
+ {
+  "name": "河海大学",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 65,
+  "sr_cs_rank": 72,
+  "sr_cs_score": 106,
+  "sr_se_rank": 70,
+  "sr_se_score": 30
+ },
+ {
+  "name": "北京工业大学",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 66,
+  "sr_cs_rank": 47,
+  "sr_cs_score": 176,
+  "sr_se_rank": 47,
+  "sr_se_score": 56,
+  "sr_cyb_rank": 38,
+  "sr_cyb_score": 63
+ },
+ {
+  "name": "西北大学",
+  "province": "陕西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 67,
+  "sr_cs_rank": 56,
+  "sr_cs_score": 149
+ },
+ {
+  "name": "北京化工大学",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 68
+ },
+ {
+  "name": "西南大学",
+  "province": "重庆",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 69,
+  "sr_cs_rank": 81,
+  "sr_cs_score": 84
+ },
+ {
+  "name": "云南大学",
+  "province": "云南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 70,
+  "sr_cs_rank": 81,
+  "sr_cs_score": 84,
+  "sr_se_rank": 41,
+  "sr_se_score": 71
+ },
+ {
+  "name": "南昌大学",
+  "province": "江西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 71,
+  "sr_cs_rank": 109,
+  "sr_cs_score": 54
+ },
+ {
+  "name": "深圳大学",
+  "province": "广东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 72,
+  "sr_cs_rank": 18,
+  "sr_cs_score": 487
+ },
+ {
+  "name": "西北农林科技大学",
+  "province": "陕西",
+  "category": "农业",
+  "rank_985": 1,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 73
+ },
+ {
+  "name": "中国地质大学（北京）",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 74
+ },
+ {
+  "name": "华北电力大学",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 75
+ },
+ {
+  "name": "东华大学",
+  "province": "上海",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 76,
+  "sr_cs_rank": 138,
+  "sr_cs_score": 41,
+  "sr_se_rank": 61,
+  "sr_se_score": 40
+ },
+ {
+  "name": "中国矿业大学（北京）",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 77
+ },
+ {
+  "name": "宁波大学",
+  "province": "浙江",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 78
+ },
+ {
+  "name": "华南师范大学",
+  "province": "广东",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 79,
+  "sr_cs_rank": 109,
+  "sr_cs_score": 54,
+  "sr_se_rank": 27,
+  "sr_se_score": 133
+ },
+ {
+  "name": "江苏大学",
+  "province": "江苏",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 80,
+  "sr_cs_rank": 103,
+  "sr_cs_score": 61
+ },
+ {
+  "name": "福州大学",
+  "province": "福建",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 81,
+  "sr_cs_rank": 55,
+  "sr_cs_score": 153,
+  "sr_se_rank": 56,
+  "sr_se_score": 47
+ },
+ {
+  "name": "扬州大学",
+  "province": "江苏",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 82,
+  "sr_se_rank": 55,
+  "sr_se_score": 49
+ },
+ {
+  "name": "合肥工业大学",
+  "province": "安徽",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 83,
+  "sr_cs_rank": 32,
+  "sr_cs_score": 317,
+  "sr_se_rank": 45,
+  "sr_se_score": 59
+ },
+ {
+  "name": "北京林业大学",
+  "province": "北京",
+  "category": "林业",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 84,
+  "sr_cs_rank": 130,
+  "sr_cs_score": 43
+ },
+ {
+  "name": "南京邮电大学",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 85,
+  "sr_cs_rank": 42,
+  "sr_cs_score": 209,
+  "sr_se_rank": 38,
+  "sr_se_score": 82,
+  "sr_cyb_rank": 31,
+  "sr_cyb_score": 111
+ },
+ {
+  "name": "湖南师范大学",
+  "province": "湖南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 86,
+  "sr_cs_rank": 99,
+  "sr_cs_score": 63
+ },
+ {
+  "name": "福建师范大学",
+  "province": "福建",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 87,
+  "sr_cs_rank": 111,
+  "sr_cs_score": 52,
+  "sr_cyb_rank": 24,
+  "sr_cyb_score": 206
+ },
+ {
+  "name": "浙江师范大学",
+  "province": "浙江",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 88,
+  "sr_cs_rank": 89,
+  "sr_cs_score": 75
+ },
+ {
+  "name": "南京工业大学",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 89
+ },
+ {
+  "name": "广西大学",
+  "province": "广西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 90,
+  "sr_cs_rank": 85,
+  "sr_cs_score": 80
+ },
+ {
+  "name": "首都师范大学",
+  "province": "北京",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 91,
+  "sr_cs_rank": 138,
+  "sr_cs_score": 41
+ },
+ {
+  "name": "长安大学",
+  "province": "陕西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 92
+ },
+ {
+  "name": "南京林业大学",
+  "province": "江苏",
+  "category": "林业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 93
+ },
+ {
+  "name": "华南农业大学",
+  "province": "广东",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 94,
+  "sr_cs_rank": 91,
+  "sr_cs_score": 72
+ },
+ {
+  "name": "安徽大学",
+  "province": "安徽",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 95,
+  "sr_cs_rank": 38,
+  "sr_cs_score": 248,
+  "sr_se_rank": 68,
+  "sr_se_score": 31
+ },
+ {
+  "name": "贵州大学",
+  "province": "贵州",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 95,
+  "sr_cs_rank": 113,
+  "sr_cs_score": 50,
+  "sr_se_rank": 10,
+  "sr_se_score": 358
+ },
+ {
+  "name": "杭州电子科技大学",
+  "province": "浙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 97,
+  "sr_cs_rank": 31,
+  "sr_cs_score": 322,
+  "sr_se_rank": 48,
+  "sr_se_score": 55,
+  "sr_cyb_rank": 34,
+  "sr_cyb_score": 98
+ },
+ {
+  "name": "广州大学",
+  "province": "广东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 98,
+  "sr_cs_rank": 71,
+  "sr_cs_score": 109,
+  "sr_cyb_rank": 6,
+  "sr_cyb_score": 647
+ },
+ {
+  "name": "河南大学",
+  "province": "河南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 99,
+  "sr_se_rank": 46,
+  "sr_se_score": 58
+ },
+ {
+  "name": "广东工业大学",
+  "province": "广东",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 100,
+  "sr_cs_rank": 53,
+  "sr_cs_score": 155,
+  "sr_se_rank": 57,
+  "sr_se_score": 46
+ },
+ {
+  "name": "山西大学",
+  "province": "山西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 101,
+  "sr_cs_rank": 63,
+  "sr_cs_score": 131
+ },
+ {
+  "name": "湘潭大学",
+  "province": "湖南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 102,
+  "sr_cs_rank": 128,
+  "sr_cs_score": 44
+ },
+ {
+  "name": "南京信息工程大学",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 103,
+  "sr_cs_rank": 44,
+  "sr_cs_score": 196,
+  "sr_se_rank": 62,
+  "sr_se_score": 36
+ },
+ {
+  "name": "海南大学",
+  "province": "海南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 104,
+  "sr_cs_rank": 91,
+  "sr_cs_score": 72,
+  "sr_cyb_rank": 28,
+  "sr_cyb_score": 122
+ },
+ {
+  "name": "山东师范大学",
+  "province": "山东",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 105,
+  "sr_cs_rank": 77,
+  "sr_cs_score": 93
+ },
+ {
+  "name": "浙江理工大学",
+  "province": "浙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 105
+ },
+ {
+  "name": "上海理工大学",
+  "province": "上海",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 107,
+  "sr_cs_rank": 142,
+  "sr_cs_score": 40
+ },
+ {
+  "name": "太原理工大学",
+  "province": "山西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 108,
+  "sr_cs_rank": 113,
+  "sr_cs_score": 50,
+  "sr_se_rank": 75,
+  "sr_se_score": 28
+ },
+ {
+  "name": "河北工业大学",
+  "province": "河北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 109,
+  "sr_cs_rank": 99,
+  "sr_cs_score": 63
+ },
+ {
+  "name": "青岛大学",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 110,
+  "sr_cs_rank": 79,
+  "sr_cs_score": 86,
+  "sr_se_rank": 51,
+  "sr_se_score": 54,
+  "sr_cyb_rank": 42,
+  "sr_cyb_score": 54
+ },
+ {
+  "name": "大连海事大学",
+  "province": "辽宁",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 111,
+  "sr_cs_rank": 88,
+  "sr_cs_score": 76,
+  "sr_se_rank": 70,
+  "sr_se_score": 30
+ },
+ {
+  "name": "燕山大学",
+  "province": "河北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 112,
+  "sr_cs_rank": 111,
+  "sr_cs_score": 52
+ },
+ {
+  "name": "东北林业大学",
+  "province": "黑龙江",
+  "category": "林业",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 113
+ },
+ {
+  "name": "西安建筑科技大学",
+  "province": "陕西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 114
+ },
+ {
+  "name": "昆明理工大学",
+  "province": "云南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 115,
+  "sr_cs_rank": 68,
+  "sr_cs_score": 123
+ },
+ {
+  "name": "内蒙古大学",
+  "province": "内蒙古",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 116,
+  "sr_cs_rank": 130,
+  "sr_cs_score": 43
+ },
+ {
+  "name": "江西师范大学",
+  "province": "江西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 117,
+  "sr_cs_rank": 87,
+  "sr_cs_score": 78,
+  "sr_se_rank": 73,
+  "sr_se_score": 29
+ },
+ {
+  "name": "西安理工大学",
+  "province": "陕西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 118,
+  "sr_cs_rank": 91,
+  "sr_cs_score": 72
+ },
+ {
+  "name": "上海师范大学",
+  "province": "上海",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 119
+ },
+ {
+  "name": "杭州师范大学",
+  "province": "浙江",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 120,
+  "sr_cs_rank": 84,
+  "sr_cs_score": 81
+ },
+ {
+  "name": "东北农业大学",
+  "province": "黑龙江",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 121
+ },
+ {
+  "name": "武汉科技大学",
+  "province": "湖北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 122,
+  "sr_cs_rank": 97,
+  "sr_cs_score": 67,
+  "sr_se_rank": 33,
+  "sr_se_score": 111
+ },
+ {
+  "name": "山东科技大学",
+  "province": "山东",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 123,
+  "sr_cs_rank": 78,
+  "sr_cs_score": 92
+ },
+ {
+  "name": "陕西科技大学",
+  "province": "陕西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 124
+ },
+ {
+  "name": "福建农林大学",
+  "province": "福建",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 125,
+  "sr_cs_rank": 134,
+  "sr_cs_score": 42
+ },
+ {
+  "name": "长沙理工大学",
+  "province": "湖南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 126,
+  "sr_cs_rank": 119,
+  "sr_cs_score": 48,
+  "sr_se_rank": 28,
+  "sr_se_score": 131
+ },
+ {
+  "name": "河北大学",
+  "province": "河北",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 126
+ },
+ {
+  "name": "宁夏大学",
+  "province": "宁夏",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 128,
+  "sr_cs_rank": 142,
+  "sr_cs_score": 40
+ },
+ {
+  "name": "新疆大学",
+  "province": "新疆",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 129,
+  "sr_cs_rank": 49,
+  "sr_cs_score": 172
+ },
+ {
+  "name": "西南石油大学",
+  "province": "四川",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 130
+ },
+ {
+  "name": "辽宁大学",
+  "province": "辽宁",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 131
+ },
+ {
+  "name": "温州大学",
+  "province": "浙江",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 132,
+  "sr_cs_rank": 91,
+  "sr_cs_score": 72
+ },
+ {
+  "name": "湖北大学",
+  "province": "湖北",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 133,
+  "sr_cyb_rank": 40,
+  "sr_cyb_score": 56
+ },
+ {
+  "name": "四川农业大学",
+  "province": "四川",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 134
+ },
+ {
+  "name": "长春理工大学",
+  "province": "吉林",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 135
+ },
+ {
+  "name": "石河子大学",
+  "province": "新疆",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 136
+ },
+ {
+  "name": "中国计量大学",
+  "province": "浙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 136
+ },
+ {
+  "name": "天津工业大学",
+  "province": "天津",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 138
+ },
+ {
+  "name": "安徽师范大学",
+  "province": "安徽",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 139
+ },
+ {
+  "name": "江苏科技大学",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 139
+ },
+ {
+  "name": "天津师范大学",
+  "province": "天津",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 141
+ },
+ {
+  "name": "齐鲁工业大学",
+  "province": "山东",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 142,
+  "sr_cs_rank": 25,
+  "sr_cs_score": 386
+ },
+ {
+  "name": "江苏师范大学",
+  "province": "江苏",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 143
+ },
+ {
+  "name": "山东农业大学",
+  "province": "山东",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 144
+ },
+ {
+  "name": "上海海洋大学",
+  "province": "上海",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 145
+ },
+ {
+  "name": "湖北工业大学",
+  "province": "湖北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 146,
+  "sr_cs_rank": 99,
+  "sr_cs_score": 63
+ },
+ {
+  "name": "浙江农林大学",
+  "province": "浙江",
+  "category": "林业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 147
+ },
+ {
+  "name": "河南农业大学",
+  "province": "河南",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 148
+ },
+ {
+  "name": "常州大学",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 149
+ },
+ {
+  "name": "沈阳农业大学",
+  "province": "辽宁",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 150
+ },
+ {
+  "name": "河南师范大学",
+  "province": "河南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 151
+ },
+ {
+  "name": "重庆邮电大学",
+  "province": "重庆",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 152,
+  "sr_cs_rank": 29,
+  "sr_cs_score": 329,
+  "sr_se_rank": 73,
+  "sr_se_score": 29,
+  "sr_cyb_rank": 33,
+  "sr_cyb_score": 99
+ },
+ {
+  "name": "安徽农业大学",
+  "province": "安徽",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 153,
+  "sr_cs_rank": 124,
+  "sr_cs_score": 46
+ },
+ {
+  "name": "成都理工大学",
+  "province": "四川",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 1,
+  "sr_rank": 154
+ },
+ {
+  "name": "广西师范大学",
+  "province": "广西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 155,
+  "sr_cs_rank": 138,
+  "sr_cs_score": 41,
+  "sr_se_rank": 22,
+  "sr_se_score": 160
+ },
+ {
+  "name": "黑龙江大学",
+  "province": "黑龙江",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 156,
+  "sr_cyb_rank": 32,
+  "sr_cyb_score": 100
+ },
+ {
+  "name": "北京建筑大学",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 157
+ },
+ {
+  "name": "武汉工程大学",
+  "province": "湖北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 158
+ },
+ {
+  "name": "南通大学",
+  "province": "江苏",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 159
+ },
+ {
+  "name": "河北师范大学",
+  "province": "河北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 160
+ },
+ {
+  "name": "天津科技大学",
+  "province": "天津",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 161
+ },
+ {
+  "name": "青岛科技大学",
+  "province": "山东",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 162,
+  "sr_se_rank": 48,
+  "sr_se_score": 55
+ },
+ {
+  "name": "华侨大学",
+  "province": "福建",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 163,
+  "sr_se_rank": 42,
+  "sr_se_score": 70
+ },
+ {
+  "name": "河南科技大学",
+  "province": "河南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 164
+ },
+ {
+  "name": "延边大学",
+  "province": "吉林",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 165
+ },
+ {
+  "name": "汕头大学",
+  "province": "广东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 166
+ },
+ {
+  "name": "武汉纺织大学",
+  "province": "湖北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 167
+ },
+ {
+  "name": "江西理工大学",
+  "province": "江西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 168
+ },
+ {
+  "name": "西安科技大学",
+  "province": "陕西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 169,
+  "sr_cs_rank": 128,
+  "sr_cs_score": 44
+ },
+ {
+  "name": "集美大学",
+  "province": "福建",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 170,
+  "sr_se_rank": 68,
+  "sr_se_score": 31
+ },
+ {
+  "name": "西北师范大学",
+  "province": "甘肃",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 171,
+  "sr_cs_rank": 102,
+  "sr_cs_score": 62
+ },
+ {
+  "name": "湖南农业大学",
+  "province": "湖南",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 172
+ },
+ {
+  "name": "青海大学",
+  "province": "青海",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 173
+ },
+ {
+  "name": "辽宁师范大学",
+  "province": "辽宁",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 174,
+  "sr_cs_rank": 127,
+  "sr_cs_score": 45
+ },
+ {
+  "name": "上海海事大学",
+  "province": "上海",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 175,
+  "sr_cs_rank": 107,
+  "sr_cs_score": 55
+ },
+ {
+  "name": "吉林农业大学",
+  "province": "吉林",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 176,
+  "sr_cs_rank": 105,
+  "sr_cs_score": 58
+ },
+ {
+  "name": "曲阜师范大学",
+  "province": "山东",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 177,
+  "sr_cs_rank": 134,
+  "sr_cs_score": 42
+ },
+ {
+  "name": "三峡大学",
+  "province": "湖北",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 177
+ },
+ {
+  "name": "华东交通大学",
+  "province": "江西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 179,
+  "sr_cs_rank": 98,
+  "sr_cs_score": 66
+ },
+ {
+  "name": "济南大学",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 179,
+  "sr_cs_rank": 134,
+  "sr_cs_score": 42
+ },
+ {
+  "name": "中北大学",
+  "province": "山西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 179,
+  "sr_cs_rank": 119,
+  "sr_cs_score": 48,
+  "sr_se_rank": 35,
+  "sr_se_score": 105
+ },
+ {
+  "name": "南昌航空大学",
+  "province": "江西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 182,
+  "sr_se_rank": 30,
+  "sr_se_score": 119
+ },
+ {
+  "name": "天津理工大学",
+  "province": "天津",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 183,
+  "sr_cs_rank": 63,
+  "sr_cs_score": 131
+ },
+ {
+  "name": "湖南科技大学",
+  "province": "湖南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 184,
+  "sr_cs_rank": 113,
+  "sr_cs_score": 50
+ },
+ {
+  "name": "安徽工业大学",
+  "province": "安徽",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 185
+ },
+ {
+  "name": "长江大学",
+  "province": "湖北",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 186
+ },
+ {
+  "name": "兰州理工大学",
+  "province": "甘肃",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 186
+ },
+ {
+  "name": "重庆交通大学",
+  "province": "重庆",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 188
+ },
+ {
+  "name": "沈阳工业大学",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 189
+ },
+ {
+  "name": "烟台大学",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 190
+ },
+ {
+  "name": "山东理工大学",
+  "province": "山东",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 191
+ },
+ {
+  "name": "安徽理工大学",
+  "province": "安徽",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 192
+ },
+ {
+  "name": "西藏大学",
+  "province": "西藏",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 1,
+  "sr_rank": 192,
+  "sr_cs_rank": 62,
+  "sr_cs_score": 135
+ },
+ {
+  "name": "上海电力大学",
+  "province": "上海",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 194
+ },
+ {
+  "name": "河北农业大学",
+  "province": "河北",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 195
+ },
+ {
+  "name": "北方工业大学",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 196,
+  "sr_cs_rank": 113,
+  "sr_cs_score": 50
+ },
+ {
+  "name": "西安邮电大学",
+  "province": "陕西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 196,
+  "sr_cs_rank": 103,
+  "sr_cs_score": 61,
+  "sr_se_rank": 62,
+  "sr_se_score": 36,
+  "sr_cyb_rank": 37,
+  "sr_cyb_score": 67
+ },
+ {
+  "name": "北京电子科技学院",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 198
+ },
+ {
+  "name": "四川师范大学",
+  "province": "四川",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 199
+ },
+ {
+  "name": "云南师范大学",
+  "province": "云南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 200
+ },
+ {
+  "name": "南华大学",
+  "province": "湖南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 201
+ },
+ {
+  "name": "江西农业大学",
+  "province": "江西",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 202
+ },
+ {
+  "name": "河南理工大学",
+  "province": "河南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 203
+ },
+ {
+  "name": "苏州科技大学",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 204
+ },
+ {
+  "name": "内蒙古农业大学",
+  "province": "内蒙古",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 205
+ },
+ {
+  "name": "北京信息科技大学",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 206
+ },
+ {
+  "name": "兰州交通大学",
+  "province": "甘肃",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 206
+ },
+ {
+  "name": "河南工业大学",
+  "province": "河南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 208
+ },
+ {
+  "name": "青岛理工大学",
+  "province": "山东",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 209
+ },
+ {
+  "name": "大连工业大学",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 210
+ },
+ {
+  "name": "国际关系学院",
+  "province": "北京",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 211
+ },
+ {
+  "name": "沈阳航空航天大学",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 211
+ },
+ {
+  "name": "沈阳建筑大学",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 213
+ },
+ {
+  "name": "重庆师范大学",
+  "province": "重庆",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 214
+ },
+ {
+  "name": "青岛农业大学",
+  "province": "山东",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 215
+ },
+ {
+  "name": "山西农业大学",
+  "province": "山西",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 216
+ },
+ {
+  "name": "西安工业大学",
+  "province": "陕西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 217,
+  "sr_cs_rank": 134,
+  "sr_cs_score": 42
+ },
+ {
+  "name": "湖州师范学院",
+  "province": "浙江",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 218,
+  "sr_cs_rank": 119,
+  "sr_cs_score": 48
+ },
+ {
+  "name": "东北石油大学",
+  "province": "黑龙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 219
+ },
+ {
+  "name": "佛山大学",
+  "province": "广东",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 219
+ },
+ {
+  "name": "嘉兴大学",
+  "province": "浙江",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 219
+ },
+ {
+  "name": "浙江海洋大学",
+  "province": "浙江",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 222
+ },
+ {
+  "name": "西南科技大学",
+  "province": "四川",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 223
+ },
+ {
+  "name": "海南师范大学",
+  "province": "海南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 224
+ },
+ {
+  "name": "石家庄铁道大学",
+  "province": "河北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 225
+ },
+ {
+  "name": "青海师范大学",
+  "province": "青海",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 226,
+  "sr_cs_rank": 74,
+  "sr_cs_score": 101
+ },
+ {
+  "name": "上海工程技术大学",
+  "province": "上海",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 227
+ },
+ {
+  "name": "河北科技大学",
+  "province": "河北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 228
+ },
+ {
+  "name": "中南林业科技大学",
+  "province": "湖南",
+  "category": "林业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 229,
+  "sr_se_rank": 48,
+  "sr_se_score": 55
+ },
+ {
+  "name": "桂林电子科技大学",
+  "province": "广西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 230,
+  "sr_cs_rank": 60,
+  "sr_cs_score": 140,
+  "sr_cyb_rank": 36,
+  "sr_cyb_score": 71
+ },
+ {
+  "name": "哈尔滨理工大学",
+  "province": "黑龙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 231
+ },
+ {
+  "name": "成都大学",
+  "province": "四川",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 232,
+  "sr_cs_rank": 130,
+  "sr_cs_score": 43
+ },
+ {
+  "name": "甘肃农业大学",
+  "province": "甘肃",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 233
+ },
+ {
+  "name": "东莞理工学院",
+  "province": "广东",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 234,
+  "sr_cs_rank": 122,
+  "sr_cs_score": 47
+ },
+ {
+  "name": "鲁东大学",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 235
+ },
+ {
+  "name": "浙江科技大学",
+  "province": "浙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 236
+ },
+ {
+  "name": "重庆理工大学",
+  "province": "重庆",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 237
+ },
+ {
+  "name": "内蒙古师范大学",
+  "province": "内蒙古",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 238
+ },
+ {
+  "name": "聊城大学",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 239
+ },
+ {
+  "name": "沈阳化工大学",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 239
+ },
+ {
+  "name": "山东建筑大学",
+  "province": "山东",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 241,
+  "sr_se_rank": 34,
+  "sr_se_score": 107
+ },
+ {
+  "name": "东华理工大学",
+  "province": "江西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 242
+ },
+ {
+  "name": "哈尔滨师范大学",
+  "province": "黑龙江",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 243
+ },
+ {
+  "name": "武汉轻工大学",
+  "province": "湖北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 243
+ },
+ {
+  "name": "赣南师范大学",
+  "province": "江西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 245
+ },
+ {
+  "name": "长春工业大学",
+  "province": "吉林",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 246
+ },
+ {
+  "name": "渤海大学",
+  "province": "辽宁",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 247
+ },
+ {
+  "name": "华北水利水电大学",
+  "province": "河南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 248
+ },
+ {
+  "name": "上海应用技术大学",
+  "province": "上海",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 249
+ },
+ {
+  "name": "西安石油大学",
+  "province": "陕西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 249
+ },
+ {
+  "name": "山西师范大学",
+  "province": "山西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 251
+ },
+ {
+  "name": "郑州轻工业大学",
+  "province": "河南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 252,
+  "sr_se_rank": 58,
+  "sr_se_score": 45
+ },
+ {
+  "name": "东北电力大学",
+  "province": "吉林",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 253
+ },
+ {
+  "name": "贵州师范大学",
+  "province": "贵州",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 254,
+  "sr_cs_rank": 130,
+  "sr_cs_score": 43
+ },
+ {
+  "name": "大连大学",
+  "province": "辽宁",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 255,
+  "sr_cs_rank": 72,
+  "sr_cs_score": 106,
+  "sr_se_rank": 54,
+  "sr_se_score": 51
+ },
+ {
+  "name": "辽宁石油化工大学",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 256
+ },
+ {
+  "name": "西华师范大学",
+  "province": "四川",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 257
+ },
+ {
+  "name": "北京农学院",
+  "province": "北京",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 258
+ },
+ {
+  "name": "南京工程学院",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 259
+ },
+ {
+  "name": "安徽工程大学",
+  "province": "安徽",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 260,
+  "sr_se_rank": 31,
+  "sr_se_score": 114
+ },
+ {
+  "name": "浙大城市学院",
+  "province": "浙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 261
+ },
+ {
+  "name": "沈阳师范大学",
+  "province": "辽宁",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 262
+ },
+ {
+  "name": "大连交通大学",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 263
+ },
+ {
+  "name": "成都信息工程大学",
+  "province": "四川",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 264
+ },
+ {
+  "name": "上海海关学院",
+  "province": "上海",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 265
+ },
+ {
+  "name": "西安工程大学",
+  "province": "陕西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 266
+ },
+ {
+  "name": "桂林理工大学",
+  "province": "广西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 267
+ },
+ {
+  "name": "江汉大学",
+  "province": "湖北",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 267
+ },
+ {
+  "name": "沈阳理工大学",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 269
+ },
+ {
+  "name": "安徽建筑大学",
+  "province": "安徽",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 270
+ },
+ {
+  "name": "湖南工业大学",
+  "province": "湖南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 271
+ },
+ {
+  "name": "绍兴文理学院",
+  "province": "浙江",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 272
+ },
+ {
+  "name": "厦门理工学院",
+  "province": "福建",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 273
+ },
+ {
+  "name": "辽宁工程技术大学",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 274
+ },
+ {
+  "name": "浙大宁波理工学院",
+  "province": "浙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 274
+ },
+ {
+  "name": "北京印刷学院",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 276
+ },
+ {
+  "name": "内蒙古工业大学",
+  "province": "内蒙古",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 277
+ },
+ {
+  "name": "北京石油化工学院",
+  "province": "北京",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 278
+ },
+ {
+  "name": "华北理工大学",
+  "province": "河北",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 279
+ },
+ {
+  "name": "常熟理工学院",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 280
+ },
+ {
+  "name": "延安大学",
+  "province": "陕西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 281
+ },
+ {
+  "name": "中国民航大学",
+  "province": "天津",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 282
+ },
+ {
+  "name": "黑龙江八一农垦大学",
+  "province": "黑龙江",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 283
+ },
+ {
+  "name": "中原工学院",
+  "province": "河南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 283
+ },
+ {
+  "name": "辽宁科技大学",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 285
+ },
+ {
+  "name": "沈阳大学",
+  "province": "辽宁",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 286
+ },
+ {
+  "name": "合肥大学",
+  "province": "安徽",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 287
+ },
+ {
+  "name": "北华大学",
+  "province": "吉林",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 288
+ },
+ {
+  "name": "新疆农业大学",
+  "province": "新疆",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 289
+ },
+ {
+  "name": "北京联合大学",
+  "province": "北京",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 290,
+  "sr_se_rank": 29,
+  "sr_se_score": 123
+ },
+ {
+  "name": "闽江学院",
+  "province": "福建",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 291
+ },
+ {
+  "name": "辽宁工业大学",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 292,
+  "sr_cs_rank": 124,
+  "sr_cs_score": 46
+ },
+ {
+  "name": "宁波工程学院",
+  "province": "浙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 293
+ },
+ {
+  "name": "河北工程大学",
+  "province": "河北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 294
+ },
+ {
+  "name": "盐城工学院",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 295
+ },
+ {
+  "name": "云南农业大学",
+  "province": "云南",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 295
+ },
+ {
+  "name": "太原科技大学",
+  "province": "山西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 297
+ },
+ {
+  "name": "吉首大学",
+  "province": "湖南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 298
+ },
+ {
+  "name": "重庆科技大学",
+  "province": "重庆",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 299
+ },
+ {
+  "name": "广东海洋大学",
+  "province": "广东",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 300
+ },
+ {
+  "name": "大连海洋大学",
+  "province": "辽宁",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 301
+ },
+ {
+  "name": "淮阴工学院",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 302
+ },
+ {
+  "name": "内蒙古科技大学",
+  "province": "内蒙古",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 303
+ },
+ {
+  "name": "台州学院",
+  "province": "浙江",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 304
+ },
+ {
+  "name": "塔里木大学",
+  "province": "新疆",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 305
+ },
+ {
+  "name": "信阳师范大学",
+  "province": "河南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 305
+ },
+ {
+  "name": "西华大学",
+  "province": "四川",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 307
+ },
+ {
+  "name": "湖南理工学院",
+  "province": "湖南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 308
+ },
+ {
+  "name": "大理大学",
+  "province": "云南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 309
+ },
+ {
+  "name": "景德镇陶瓷大学",
+  "province": "江西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 310
+ },
+ {
+  "name": "新疆师范大学",
+  "province": "新疆",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 310
+ },
+ {
+  "name": "吉林师范大学",
+  "province": "吉林",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 312
+ },
+ {
+  "name": "长春师范大学",
+  "province": "吉林",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 313
+ },
+ {
+  "name": "西南林业大学",
+  "province": "云南",
+  "category": "林业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 314
+ },
+ {
+  "name": "长江师范学院",
+  "province": "重庆",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 315
+ },
+ {
+  "name": "盐城师范学院",
+  "province": "江苏",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 315
+ },
+ {
+  "name": "江苏理工学院",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 317
+ },
+ {
+  "name": "闽南师范大学",
+  "province": "福建",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 317
+ },
+ {
+  "name": "淮阴师范学院",
+  "province": "江苏",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 319
+ },
+ {
+  "name": "福建理工大学",
+  "province": "福建",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 320
+ },
+ {
+  "name": "河北地质大学",
+  "province": "河北",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 321
+ },
+ {
+  "name": "淮北师范大学",
+  "province": "安徽",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 321
+ },
+ {
+  "name": "南宁师范大学",
+  "province": "广西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 323
+ },
+ {
+  "name": "贵州师范学院",
+  "province": "贵州",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 324
+ },
+ {
+  "name": "常州工学院",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 325
+ },
+ {
+  "name": "上海第二工业大学",
+  "province": "上海",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 326
+ },
+ {
+  "name": "天津城建大学",
+  "province": "天津",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 327
+ },
+ {
+  "name": "广东技术师范大学",
+  "province": "广东",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 328
+ },
+ {
+  "name": "上海电机学院",
+  "province": "上海",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 328
+ },
+ {
+  "name": "徐州工程学院",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 328
+ },
+ {
+  "name": "湖北师范大学",
+  "province": "湖北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 331
+ },
+ {
+  "name": "江苏海洋大学",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 331
+ },
+ {
+  "name": "吉林建筑大学",
+  "province": "吉林",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 333
+ },
+ {
+  "name": "安庆师范大学",
+  "province": "安徽",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 334
+ },
+ {
+  "name": "长沙学院",
+  "province": "湖南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 334
+ },
+ {
+  "name": "江西水利电力大学",
+  "province": "江西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 336
+ },
+ {
+  "name": "山东交通学院",
+  "province": "山东",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 336
+ },
+ {
+  "name": "五邑大学",
+  "province": "广东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 336
+ },
+ {
+  "name": "河南科技学院",
+  "province": "河南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 339
+ },
+ {
+  "name": "江西科技师范大学",
+  "province": "江西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 340
+ },
+ {
+  "name": "井冈山大学",
+  "province": "江西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 341
+ },
+ {
+  "name": "重庆文理学院",
+  "province": "重庆",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 342
+ },
+ {
+  "name": "浙江万里学院",
+  "province": "浙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 342
+ },
+ {
+  "name": "湖南第一师范学院",
+  "province": "湖南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 344
+ },
+ {
+  "name": "陕西理工大学",
+  "province": "陕西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 344
+ },
+ {
+  "name": "洛阳师范学院",
+  "province": "河南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 346
+ },
+ {
+  "name": "天津职业技术师范大学",
+  "province": "天津",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 347
+ },
+ {
+  "name": "仲恺农业工程学院",
+  "province": "广东",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 347
+ },
+ {
+  "name": "衡阳师范学院",
+  "province": "湖南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 349
+ },
+ {
+  "name": "临沂大学",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 350
+ },
+ {
+  "name": "天津农学院",
+  "province": "天津",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 350
+ },
+ {
+  "name": "南京晓庄学院",
+  "province": "江苏",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 352
+ },
+ {
+  "name": "黄冈师范学院",
+  "province": "湖北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 353
+ },
+ {
+  "name": "四川轻化工大学",
+  "province": "四川",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 354
+ },
+ {
+  "name": "长春大学",
+  "province": "吉林",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 355
+ },
+ {
+  "name": "长春工程学院",
+  "province": "吉林",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 356
+ },
+ {
+  "name": "无锡学院",
+  "province": "江苏",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 356
+ },
+ {
+  "name": "安徽科技学院",
+  "province": "安徽",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 358
+ },
+ {
+  "name": "金陵科技学院",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 359
+ },
+ {
+  "name": "岭南师范学院",
+  "province": "广东",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 360
+ },
+ {
+  "name": "惠州学院",
+  "province": "广东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 361
+ },
+ {
+  "name": "西藏农牧学院",
+  "province": "西藏",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 362
+ },
+ {
+  "name": "衢州学院",
+  "province": "浙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 363
+ },
+ {
+  "name": "铜仁学院",
+  "province": "贵州",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 364
+ },
+ {
+  "name": "湖北第二师范学院",
+  "province": "湖北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 365
+ },
+ {
+  "name": "齐齐哈尔大学",
+  "province": "黑龙江",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 365
+ },
+ {
+  "name": "合肥师范学院",
+  "province": "安徽",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 367
+ },
+ {
+  "name": "绵阳师范学院",
+  "province": "四川",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 368
+ },
+ {
+  "name": "广西科技大学",
+  "province": "广西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 369
+ },
+ {
+  "name": "攀枝花学院",
+  "province": "四川",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 370
+ },
+ {
+  "name": "榆林学院",
+  "province": "陕西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 371
+ },
+ {
+  "name": "内江师范学院",
+  "province": "四川",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 372
+ },
+ {
+  "name": "湖北汽车工业学院",
+  "province": "湖北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 373
+ },
+ {
+  "name": "山东航空学院",
+  "province": "山东",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 373
+ },
+ {
+  "name": "泰山学院",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 375
+ },
+ {
+  "name": "湖北文理学院",
+  "province": "湖北",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 376
+ },
+ {
+  "name": "三明学院",
+  "province": "福建",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 376
+ },
+ {
+  "name": "重庆三峡学院",
+  "province": "重庆",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 378
+ },
+ {
+  "name": "丽水学院",
+  "province": "浙江",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 379
+ },
+ {
+  "name": "潍坊学院",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 380
+ },
+ {
+  "name": "泉州师范学院",
+  "province": "福建",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 381
+ },
+ {
+  "name": "黑龙江科技大学",
+  "province": "黑龙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 382
+ },
+ {
+  "name": "防灾科技学院",
+  "province": "河北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 383
+ },
+ {
+  "name": "西安文理学院",
+  "province": "陕西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 384
+ },
+ {
+  "name": "湖北科技学院",
+  "province": "湖北",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 385
+ },
+ {
+  "name": "宝鸡文理学院",
+  "province": "陕西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 386
+ },
+ {
+  "name": "龙岩学院",
+  "province": "福建",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 386
+ },
+ {
+  "name": "南阳师范学院",
+  "province": "河南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 386
+ },
+ {
+  "name": "湖南文理学院",
+  "province": "湖南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 389
+ },
+ {
+  "name": "通化师范学院",
+  "province": "吉林",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 389
+ },
+ {
+  "name": "湘南学院",
+  "province": "湖南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 389
+ },
+ {
+  "name": "广东石油化工学院",
+  "province": "广东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 392
+ },
+ {
+  "name": "北华航天工业学院",
+  "province": "河北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 393
+ },
+ {
+  "name": "怀化学院",
+  "province": "湖南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 393
+ },
+ {
+  "name": "佳木斯大学",
+  "province": "黑龙江",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 393
+ },
+ {
+  "name": "河北科技师范学院",
+  "province": "河北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 396
+ },
+ {
+  "name": "渭南师范学院",
+  "province": "陕西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 396
+ },
+ {
+  "name": "阜阳师范大学",
+  "province": "安徽",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 398
+ },
+ {
+  "name": "德州学院",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 399
+ },
+ {
+  "name": "玉林师范学院",
+  "province": "广西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 399
+ },
+ {
+  "name": "南阳理工学院",
+  "province": "河南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 401
+ },
+ {
+  "name": "滁州学院",
+  "province": "安徽",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 402
+ },
+ {
+  "name": "江苏第二师范学院",
+  "province": "江苏",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 402
+ },
+ {
+  "name": "曲靖师范学院",
+  "province": "云南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 402
+ },
+ {
+  "name": "莆田学院",
+  "province": "福建",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 405
+ },
+ {
+  "name": "贵阳学院",
+  "province": "贵州",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 406
+ },
+ {
+  "name": "枣庄学院",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 406
+ },
+ {
+  "name": "湖北理工学院",
+  "province": "湖北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 408
+ },
+ {
+  "name": "湖南城市学院",
+  "province": "湖南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 409
+ },
+ {
+  "name": "湖南工程学院",
+  "province": "湖南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 409
+ },
+ {
+  "name": "湖南科技学院",
+  "province": "湖南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 411
+ },
+ {
+  "name": "广东第二师范学院",
+  "province": "广东",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 412
+ },
+ {
+  "name": "太原师范学院",
+  "province": "山西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 413
+ },
+ {
+  "name": "周口师范学院",
+  "province": "河南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 413
+ },
+ {
+  "name": "北部湾大学",
+  "province": "广西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 415
+ },
+ {
+  "name": "浙江水利水电学院",
+  "province": "浙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 415
+ },
+ {
+  "name": "肇庆学院",
+  "province": "广东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 417
+ },
+ {
+  "name": "韩山师范学院",
+  "province": "广东",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 418
+ },
+ {
+  "name": "宿迁学院",
+  "province": "江苏",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 419
+ },
+ {
+  "name": "河南城建学院",
+  "province": "河南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 420
+ },
+ {
+  "name": "中国民用航空飞行学院",
+  "province": "四川",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 421
+ },
+ {
+  "name": "咸阳师范学院",
+  "province": "陕西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 422
+ },
+ {
+  "name": "黑龙江工程学院",
+  "province": "黑龙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 423
+ },
+ {
+  "name": "安阳师范学院",
+  "province": "河南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 424
+ },
+ {
+  "name": "唐山师范学院",
+  "province": "河北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 424
+ },
+ {
+  "name": "皖西学院",
+  "province": "安徽",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 426
+ },
+ {
+  "name": "齐鲁师范学院",
+  "province": "山东",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 427
+ },
+ {
+  "name": "成都师范学院",
+  "province": "四川",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 428
+ },
+ {
+  "name": "河南工程学院",
+  "province": "河南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 428
+ },
+ {
+  "name": "哈尔滨学院",
+  "province": "黑龙江",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 430
+ },
+ {
+  "name": "上饶师范学院",
+  "province": "江西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 430
+ },
+ {
+  "name": "贵州理工学院",
+  "province": "贵州",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 432
+ },
+ {
+  "name": "牡丹江师范学院",
+  "province": "黑龙江",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 432
+ },
+ {
+  "name": "昆明学院",
+  "province": "云南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 434
+ },
+ {
+  "name": "宜宾学院",
+  "province": "四川",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 435
+ },
+ {
+  "name": "重庆第二师范学院",
+  "province": "重庆",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 436
+ },
+ {
+  "name": "商丘师范学院",
+  "province": "河南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 437
+ },
+ {
+  "name": "湖南人文科技学院",
+  "province": "湖南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 438
+ },
+ {
+  "name": "黄淮学院",
+  "province": "河南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 439
+ },
+ {
+  "name": "长治学院",
+  "province": "山西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 440
+ },
+ {
+  "name": "湖北工程学院",
+  "province": "湖北",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 441
+ },
+ {
+  "name": "平顶山学院",
+  "province": "河南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 441
+ },
+ {
+  "name": "乐山师范学院",
+  "province": "四川",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 443
+ },
+ {
+  "name": "温州理工学院",
+  "province": "浙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 443
+ },
+ {
+  "name": "西昌学院",
+  "province": "四川",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 443
+ },
+ {
+  "name": "遵义师范学院",
+  "province": "贵州",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 443
+ },
+ {
+  "name": "信阳农林学院",
+  "province": "河南",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 447
+ },
+ {
+  "name": "宜春学院",
+  "province": "江西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 447
+ },
+ {
+  "name": "天水师范学院",
+  "province": "甘肃",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 449
+ },
+ {
+  "name": "营口理工学院",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 449
+ },
+ {
+  "name": "商洛学院",
+  "province": "陕西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 451
+ },
+ {
+  "name": "兰州石化职业技术大学",
+  "province": "甘肃",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 452
+ },
+ {
+  "name": "宁德师范学院",
+  "province": "福建",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 453
+ },
+ {
+  "name": "邵阳学院",
+  "province": "湖南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 454
+ },
+ {
+  "name": "海南热带海洋学院",
+  "province": "海南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 455
+ },
+ {
+  "name": "洛阳理工学院",
+  "province": "河南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 456
+ },
+ {
+  "name": "玉溪师范学院",
+  "province": "云南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 456
+ },
+ {
+  "name": "成都工业学院",
+  "province": "四川",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 458
+ },
+ {
+  "name": "安阳工学院",
+  "province": "河南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 459
+ },
+ {
+  "name": "四川旅游学院",
+  "province": "四川",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 460
+ },
+ {
+  "name": "九江学院",
+  "province": "江西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 461
+ },
+ {
+  "name": "鞍山师范学院",
+  "province": "辽宁",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 462
+ },
+ {
+  "name": "山东女子学院",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 463
+ },
+ {
+  "name": "内蒙古科技大学包头师范学院",
+  "province": "内蒙古",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 464
+ },
+ {
+  "name": "赤峰学院",
+  "province": "内蒙古",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 465
+ },
+ {
+  "name": "淮南师范学院",
+  "province": "安徽",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 465
+ },
+ {
+  "name": "湖南工学院",
+  "province": "湖南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 465
+ },
+ {
+  "name": "贺州学院",
+  "province": "广西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 468
+ },
+ {
+  "name": "吉林化工大学",
+  "province": "吉林",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 468
+ },
+ {
+  "name": "河西学院",
+  "province": "甘肃",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 470
+ },
+ {
+  "name": "南昌师范学院",
+  "province": "江西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 471
+ },
+ {
+  "name": "许昌学院",
+  "province": "河南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 472
+ },
+ {
+  "name": "吉林农业科技学院",
+  "province": "吉林",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 473
+ },
+ {
+  "name": "河北建筑工程学院",
+  "province": "河北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 474
+ },
+ {
+  "name": "河南牧业经济学院",
+  "province": "河南",
+  "category": "农业",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 475
+ },
+ {
+  "name": "宁夏师范大学",
+  "province": "宁夏",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 476
+ },
+ {
+  "name": "陇东学院",
+  "province": "甘肃",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 477
+ },
+ {
+  "name": "武夷学院",
+  "province": "福建",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 477
+ },
+ {
+  "name": "运城学院",
+  "province": "山西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 479
+ },
+ {
+  "name": "安康学院",
+  "province": "陕西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 480
+ },
+ {
+  "name": "宿州学院",
+  "province": "安徽",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 481
+ },
+ {
+  "name": "山东管理学院",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 482
+ },
+ {
+  "name": "黄山学院",
+  "province": "安徽",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 483
+ },
+ {
+  "name": "泰州学院",
+  "province": "江苏",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 484
+ },
+ {
+  "name": "巢湖学院",
+  "province": "安徽",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 485
+ },
+ {
+  "name": "喀什大学",
+  "province": "新疆",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 485
+ },
+ {
+  "name": "陕西学前师范学院",
+  "province": "陕西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 485
+ },
+ {
+  "name": "辽东学院",
+  "province": "辽宁",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 488
+ },
+ {
+  "name": "伊犁师范大学",
+  "province": "新疆",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 488
+ },
+ {
+  "name": "山东农业工程学院",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 490
+ },
+ {
+  "name": "辽宁科技学院",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 491
+ },
+ {
+  "name": "琼台师范学院",
+  "province": "海南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 492
+ },
+ {
+  "name": "红河学院",
+  "province": "云南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 493
+ },
+ {
+  "name": "湖州学院",
+  "province": "浙江",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 494
+ },
+ {
+  "name": "山东青年政治学院",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 495
+ },
+ {
+  "name": "六盘水师范学院",
+  "province": "贵州",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 496
+ },
+ {
+  "name": "梧州学院",
+  "province": "广西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 497
+ },
+ {
+  "name": "呼伦贝尔学院",
+  "province": "内蒙古",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 498
+ },
+ {
+  "name": "河北民族师范学院",
+  "province": "河北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 499
+ },
+ {
+  "name": "兰州城市学院",
+  "province": "甘肃",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 499
+ },
+ {
+  "name": "凯里学院",
+  "province": "贵州",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 501
+ },
+ {
+  "name": "兰州工业学院",
+  "province": "甘肃",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 501
+ },
+ {
+  "name": "郑州工程技术学院",
+  "province": "河南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 501
+ },
+ {
+  "name": "福建技术师范学院",
+  "province": "福建",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 504
+ },
+ {
+  "name": "阿坝师范学院",
+  "province": "四川",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 505
+ },
+ {
+  "name": "贵阳康养职业大学",
+  "province": "贵州",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 505
+ },
+ {
+  "name": "安顺学院",
+  "province": "贵州",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 507
+ },
+ {
+  "name": "大庆师范学院",
+  "province": "黑龙江",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 507
+ },
+ {
+  "name": "萍乡学院",
+  "province": "江西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 509
+ },
+ {
+  "name": "南京特殊教育师范学院",
+  "province": "江苏",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 510
+ },
+ {
+  "name": "郑州师范学院",
+  "province": "河南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 511
+ },
+ {
+  "name": "长沙师范学院",
+  "province": "湖南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 512
+ },
+ {
+  "name": "赣南科技学院",
+  "province": "江西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 512
+ },
+ {
+  "name": "桂林航天工业学院",
+  "province": "广西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 514
+ },
+ {
+  "name": "晋中学院",
+  "province": "山西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 514
+ },
+ {
+  "name": "菏泽学院",
+  "province": "山东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 516
+ },
+ {
+  "name": "邯郸学院",
+  "province": "河北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 517
+ },
+ {
+  "name": "河北环境工程学院",
+  "province": "河北",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 517
+ },
+ {
+  "name": "楚雄师范学院",
+  "province": "云南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 519
+ },
+ {
+  "name": "白城师范学院",
+  "province": "吉林",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 520
+ },
+ {
+  "name": "华北科技学院",
+  "province": "河北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 520
+ },
+ {
+  "name": "池州学院",
+  "province": "安徽",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 522
+ },
+ {
+  "name": "太原工业学院",
+  "province": "山西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 523
+ },
+ {
+  "name": "济宁学院",
+  "province": "山东",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 524
+ },
+ {
+  "name": "保定学院",
+  "province": "河北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 525
+ },
+ {
+  "name": "景德镇学院",
+  "province": "江西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 526
+ },
+ {
+  "name": "忻州师范学院",
+  "province": "山西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 526
+ },
+ {
+  "name": "蚌埠学院",
+  "province": "安徽",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 528
+ },
+ {
+  "name": "广州航海学院",
+  "province": "广东",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 529
+ },
+ {
+  "name": "集宁师范学院",
+  "province": "内蒙古",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 529
+ },
+ {
+  "name": "山西大同大学",
+  "province": "山西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 531
+ },
+ {
+  "name": "兴义民族师范学院",
+  "province": "贵州",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 532
+ },
+ {
+  "name": "四川文理学院",
+  "province": "四川",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 533
+ },
+ {
+  "name": "鄂尔多斯应用技术学院",
+  "province": "内蒙古",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 534
+ },
+ {
+  "name": "广西民族师范学院",
+  "province": "广西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 535
+ },
+ {
+  "name": "天津中德应用技术大学",
+  "province": "天津",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 536
+ },
+ {
+  "name": "山西电子科技学院",
+  "province": "山西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 537
+ },
+ {
+  "name": "百色学院",
+  "province": "广西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 538
+ },
+ {
+  "name": "绥化学院",
+  "province": "黑龙江",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 538
+ },
+ {
+  "name": "河南工学院",
+  "province": "河南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 540
+ },
+ {
+  "name": "苏州城市学院",
+  "province": "江苏",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 540
+ },
+ {
+  "name": "新余学院",
+  "province": "江西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 542
+ },
+ {
+  "name": "亳州学院",
+  "province": "安徽",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 543
+ },
+ {
+  "name": "吉林工程技术师范学院",
+  "province": "吉林",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 544
+ },
+ {
+  "name": "河套学院",
+  "province": "内蒙古",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 545
+ },
+ {
+  "name": "黑河学院",
+  "province": "黑龙江",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 546
+ },
+ {
+  "name": "吕梁学院",
+  "province": "山西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 547
+ },
+ {
+  "name": "荆楚理工学院",
+  "province": "湖北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 548
+ },
+ {
+  "name": "贵州工程应用技术学院",
+  "province": "贵州",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 549
+ },
+ {
+  "name": "山西能源学院",
+  "province": "山西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 550
+ },
+ {
+  "name": "南京工业职业技术大学",
+  "province": "江苏",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 551
+ },
+ {
+  "name": "石家庄学院",
+  "province": "河北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 552
+ },
+ {
+  "name": "兰州文理学院",
+  "province": "甘肃",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 553
+ },
+ {
+  "name": "新疆工程学院",
+  "province": "新疆",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 553
+ },
+ {
+  "name": "广西科技师范学院",
+  "province": "广西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 555
+ },
+ {
+  "name": "张家口学院",
+  "province": "河北",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 556
+ },
+ {
+  "name": "衡水学院",
+  "province": "河北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 557
+ },
+ {
+  "name": "黔南民族师范学院",
+  "province": "贵州",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 558
+ },
+ {
+  "name": "四川民族学院",
+  "province": "四川",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 558
+ },
+ {
+  "name": "保山学院",
+  "province": "云南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 560
+ },
+ {
+  "name": "赣东学院",
+  "province": "江西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 561
+ },
+ {
+  "name": "山西工程技术学院",
+  "province": "山西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 562
+ },
+ {
+  "name": "河池学院",
+  "province": "广西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 563
+ },
+ {
+  "name": "普洱学院",
+  "province": "云南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 564
+ },
+ {
+  "name": "韶关学院",
+  "province": "广东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 565
+ },
+ {
+  "name": "嘉应学院",
+  "province": "广东",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 566
+ },
+ {
+  "name": "河北水利电力学院",
+  "province": "河北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 567
+ },
+ {
+  "name": "豫章师范学院",
+  "province": "江西",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 568
+ },
+ {
+  "name": "西安航空学院",
+  "province": "陕西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 569
+ },
+ {
+  "name": "汉江师范学院",
+  "province": "湖北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 570
+ },
+ {
+  "name": "新乡学院",
+  "province": "河南",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 570
+ },
+ {
+  "name": "滇西科技师范学院",
+  "province": "云南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 572
+ },
+ {
+  "name": "黑龙江工业学院",
+  "province": "黑龙江",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 573
+ },
+ {
+  "name": "新疆理工学院",
+  "province": "新疆",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 574
+ },
+ {
+  "name": "昌吉学院",
+  "province": "新疆",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 575
+ },
+ {
+  "name": "太原学院",
+  "province": "山西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 576
+ },
+ {
+  "name": "甘肃民族师范学院",
+  "province": "甘肃",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 577
+ },
+ {
+  "name": "山东石油化工学院",
+  "province": "山东",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 578
+ },
+ {
+  "name": "唐山学院",
+  "province": "河北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 579
+ },
+ {
+  "name": "河北工业职业技术大学",
+  "province": "河北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 580
+ },
+ {
+  "name": "邢台学院",
+  "province": "河北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 581
+ },
+ {
+  "name": "昭通学院",
+  "province": "云南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 582
+ },
+ {
+  "name": "沧州师范学院",
+  "province": "河北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 583
+ },
+ {
+  "name": "广西职业师范学院",
+  "province": "广西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 584
+ },
+ {
+  "name": "廊坊师范学院",
+  "province": "河北",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 585
+ },
+ {
+  "name": "文山学院",
+  "province": "云南",
+  "category": "师范",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 586
+ },
+ {
+  "name": "山西工程科技职业大学",
+  "province": "山西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 587
+ },
+ {
+  "name": "沈阳工程学院",
+  "province": "辽宁",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 588
+ },
+ {
+  "name": "滇西应用技术大学",
+  "province": "云南",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 589
+ },
+ {
+  "name": "河北科技工程职业技术大学",
+  "province": "河北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 589
+ },
+ {
+  "name": "河北石油职业技术大学",
+  "province": "河北",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 591
+ },
+ {
+  "name": "新疆政法学院",
+  "province": "新疆",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 592
+ },
+ {
+  "name": "广西农业职业技术大学",
+  "province": "广西",
+  "category": "综合",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 593
+ },
+ {
+  "name": "山西科技学院",
+  "province": "山西",
+  "category": "理工",
+  "rank_985": 0,
+  "rank_211": 0,
+  "dual_class": 0,
+  "sr_rank": 594
+ },
+ {
+  "name": "上海外国语大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "上海财经大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "中南财经政法大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "中国传媒大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "中国地质大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "中国政法大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "中国药科大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "中央民族大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null,
+  "sr_cs_rank": 118,
+  "sr_cs_score": 49
+ },
+ {
+  "name": "中央财经大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null,
+  "sr_cyb_rank": 30,
+  "sr_cyb_score": 115
+ },
+ {
+  "name": "中央音乐学院",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "北京中医药大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "北京体育大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "北京外国语大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "国防科技大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "天津医科大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "对外经济贸易大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "海军军医大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "空军军医大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "第二军医大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "第四军医大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ },
+ {
+  "name": "西南财经大学",
+  "province": "",
+  "category": "",
+  "rank_985": 0,
+  "rank_211": 1,
+  "dual_class": 0,
+  "sr_rank": null
+ }
+]
