@@ -18,6 +18,11 @@ DISCIPLINES = [
 ]
 
 
+class LoginRequired(Exception):
+    """研招网翻页需要登录（非限流，重试无效）。"""
+    pass
+
+
 class Chsi:
     def __init__(self, pacer=None, min_interval: float = 1.0):
         self.http = Http(
@@ -28,7 +33,8 @@ class Chsi:
 
     def _post(self, url: str, form: dict, attempts: int = 8):
         """业务级重试：研招网限流时返回 {'msg':'参数错误','flag':false}。
-        冷却窗内任何请求都会重置冷却，故失败后完全静默 300s 再试。"""
+        冷却窗内任何请求都会重置冷却，故失败后完全静默 300s 再试。
+        若返回 {'msg':'请登录','flag':false}，说明需要登录才能翻页，直接抛 LoginRequired。"""
         import time as _t
 
         last = None
@@ -39,6 +45,9 @@ class Chsi:
             d = self.http.post(url, data=form).json()
             if d.get("flag") or isinstance(d.get("msg"), dict):
                 return d
+            # "请登录" 不是限流，重试无效
+            if isinstance(d.get("msg"), str) and "登录" in d["msg"]:
+                raise LoginRequired(d["msg"])
             last = d
         raise RuntimeError(f"业务失败: {str(last)[:120]}")
 
@@ -51,7 +60,10 @@ class Chsi:
         }
         out, start, page = [], 0, 1
         while True:
-            d = self._post(ZYS_URL, {**form, "start": start, "curPage": page})
+            try:
+                d = self._post(ZYS_URL, {**form, "start": start, "curPage": page})
+            except LoginRequired:
+                break  # 翻页需登录，已取到的首页数据足够
             msg = d.get("msg") or {}
             items = msg.get("list") or []
             if not items:
@@ -80,7 +92,10 @@ class Chsi:
         out, start, page = [], 0, 1
         while True:
             f = form_page(base, start, page, 10)  # 服务端固定每页 10 条
-            d = self._post(ZYDWS_URL, f)
+            try:
+                d = self._post(ZYDWS_URL, f)
+            except LoginRequired:
+                break
             msg = d.get("msg") or {}
             lst = msg.get("list") or []
             out.extend(lst)
@@ -102,7 +117,10 @@ class Chsi:
         out, start, page = [], 0, 1
         while True:
             f = form_page(base, start, page, 10)
-            d = self._post(YJFXS_URL, f)
+            try:
+                d = self._post(YJFXS_URL, f)
+            except LoginRequired:
+                break
             msg = d.get("msg") or {}
             if not isinstance(msg, dict):
                 raise RuntimeError(str(msg))
