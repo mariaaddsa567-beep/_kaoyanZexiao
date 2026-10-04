@@ -53,6 +53,10 @@ def main():
     official = target_school_names()
     names_985_211 = {normalize(u["name"]) for u in unis if u["rank_985"] or u["rank_211"]}
     names_985_211 |= official
+    # 研招网校名用全角括号（如「中国石油大学（北京）」），
+    # 按校名精确查询需同时准备全角变体（仅含括号的名字有差异）
+    names_985_211 |= {n.replace("(", "（").replace(")", "）")
+                      for n in names_985_211 if "(" in n or ")" in n}
     log(f"学校 {len(unis)} 所，985/211 目标 {len(names_985_211)} 个名称")
 
     if not os.path.exists(schools_path):
@@ -88,11 +92,20 @@ def main():
     t0 = time.time()
     raw_path = os.path.join(DATA, "admissions_raw.jsonl")
 
+    # 断点续跑：跳过已完成的 (dwdm, zydm)
+    skip_pairs = set()
+    if os.path.exists(raw_path):
+        for line in open(raw_path, encoding="utf-8"):
+            if line.strip():
+                r = json.loads(line)
+                skip_pairs.add((r["school"]["dwdm"], r["major"]["zydm"]))
+        log(f"已有 {len(skip_pairs)} 组记录，本次跳过")
+
     def cb(msg):
         log(msg)
 
     chsi.collect(names_985_211, progress_cb=cb, min_interval=2.5, workers=2,
-                 sink_path=raw_path)
+                 sink_path=raw_path, skip_pairs=skip_pairs)
 
     records = [json.loads(line) for line in open(raw_path, encoding="utf-8") if line.strip()]
     with open(os.path.join(DATA, "admissions_raw.json"), "w", encoding="utf-8") as f:

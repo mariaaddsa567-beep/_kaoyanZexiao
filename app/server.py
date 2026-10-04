@@ -119,7 +119,24 @@ def school_detail(dwdm):
     detail = q("""
         SELECT zymc, yxsmc, yjfxmc, nzsrs, nzsrsstr, ksfsmc, km1, km2, km3, km4, zybz
         FROM admissions WHERE dwdm=? ORDER BY zymc, yxsmc, yjfxdm""", (dwdm,))
-    return jsonify({"school": sch[0], "majors": majors, "admissions": detail})
+    zhx_lines = []
+    if sch[0].get("is_zhx"):
+        name = sch[0]["name"].replace("（", "(").replace("）", ")").replace(" ", "")
+        zhx_lines = q("""
+            SELECT year, article_url, imgs, pdf FROM zhx_lines
+            WHERE school_name = ? ORDER BY year DESC""", (name,))
+    return jsonify({"school": sch[0], "majors": majors, "admissions": detail,
+                    "zhx_lines": zhx_lines})
+
+
+@app.route("/api/lines")
+def lines():
+    """国家线：工学[08] 其他学科专业（计算机学硕 0812/0835/0839 与专硕 0854 均执行此线）。"""
+    rows = q("""
+        SELECT year, a_total, a1, a2, b_total, b1, b2 FROM national_lines
+        WHERE code='08' AND sub LIKE '%其他学科专业%'
+        ORDER BY year DESC""")
+    return jsonify(rows)
 
 
 if __name__ == "__main__":

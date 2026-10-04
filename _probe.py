@@ -1,13 +1,28 @@
 # -*- coding: utf-8 -*-
-import re
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-h = open("dwzy.html", encoding="utf-8").read()
-print("len:", len(h))
-print("scripts:", sorted(set(re.findall(r'src="([^"]+\.js[^"]*)"', h))))
-print("has 计算机科学与技术:", "计算机" in h)
-# form model
-m = re.search(r"form:\s*\{(.{0,500})", h, re.S)
-print("form:", m.group(1)[:400] if m else "?")
-for m in re.finditer(r"\.do['\"]", h):
-    i = m.start()
-    print("...", h[max(0, i-70):i+8].replace("\n", " ")[-75:])
+from scraper import chsi
+from scraper.http_client import form_page
+
+c = chsi.Chsi(min_interval=2.0)
+
+# zydws.do: 校名 + 一级学科，不带具体专业代码
+base = {
+    "dwmc": "北京大学", "ssdm": "", "mldm": "", "yjxkdm": "0812",
+    "zydm": "", "zymc": "", "sign": "",
+    "xwlx": "", "xxfs": "", "tydxs": "", "jsggjh": "", "jsxbjh": "",
+}
+f = form_page(base, 0, 1, 10)
+try:
+    d = c._post(chsi.ZYDWS_URL, f, attempts=2)
+    msg = d.get("msg") or {}
+    if isinstance(msg, dict):
+        lst = msg.get("list") or []
+        print("total:", msg.get("totalCount"), "got:", len(lst))
+        for x in lst:
+            print("  -", x.get("zydm"), x.get("zymc"), x.get("schId"), (x.get("sign") or "")[:10])
+    else:
+        print("ERR:", str(d)[:120])
+except Exception as e:
+    print("EXC:", str(e)[:120])

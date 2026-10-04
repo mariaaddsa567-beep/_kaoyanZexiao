@@ -13,6 +13,8 @@ DROP TABLE IF EXISTS admissions;
 DROP TABLE IF EXISTS school_major;
 DROP TABLE IF EXISTS majors;
 DROP TABLE IF EXISTS schools;
+DROP TABLE IF EXISTS national_lines;
+DROP TABLE IF EXISTS zhx_lines;
 
 CREATE TABLE schools (
     dwdm TEXT PRIMARY KEY,
@@ -77,6 +79,25 @@ CREATE INDEX idx_sm_dwdm ON school_major(dwdm);
 CREATE INDEX idx_sm_zydm ON school_major(zydm);
 CREATE INDEX idx_ad_dwdm ON admissions(dwdm);
 CREATE INDEX idx_ad_zydm ON admissions(zydm);
+
+CREATE TABLE national_lines (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    year TEXT NOT NULL,
+    category TEXT NOT NULL,   -- 门类名（工学）
+    code TEXT NOT NULL,       -- 门类代码（08）
+    sub TEXT,                 -- 子行（其他学科专业/照顾专业等）
+    a_total INTEGER, a1 INTEGER, a2 INTEGER,
+    b_total INTEGER, b1 INTEGER, b2 INTEGER
+);
+
+CREATE TABLE zhx_lines (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    school_name TEXT NOT NULL,  -- 校名（norm 后与 schools.name 匹配）
+    year TEXT NOT NULL,
+    article_url TEXT,
+    imgs TEXT,                  -- 公告分数表图片 URL（|分隔）
+    pdf TEXT
+);
 """
 
 GROUP_BY_YJXK = {"0812": "cs", "0835": "se", "0839": "cyb", "0854": "xx"}
@@ -214,6 +235,24 @@ def build():
            VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
         ad_rows,
     )
+
+    # ---- 分数线（fsx.json 存在时）----
+    fsx_path = os.path.join(DATA, "fsx.json")
+    if os.path.exists(fsx_path):
+        fsx = json.load(open(fsx_path, encoding="utf-8"))
+        con.executemany(
+            """INSERT INTO national_lines (year,category,code,sub,a_total,a1,a2,b_total,b1,b2)
+               VALUES (?,?,?,?,?,?,?,?,?,?)""",
+            [(r["year"], r["category"], r["code"], r.get("sub") or "",
+              r.get("a_total"), r.get("a1"), r.get("a2"),
+              r.get("b_total"), r.get("b1"), r.get("b2")) for r in fsx.get("national", [])],
+        )
+        con.executemany(
+            "INSERT INTO zhx_lines (school_name,year,article_url,imgs,pdf) VALUES (?,?,?,?,?)",
+            [(norm(r["school"]), r["year"], r.get("article_url") or "",
+              "|".join(r.get("imgs_local") or r.get("imgs") or []), r.get("pdf") or "")
+             for r in fsx.get("zhx", [])],
+        )
     con.commit()
 
     stat = {

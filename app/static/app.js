@@ -80,9 +80,18 @@ async function load() {
 }
 
 async function openDetail(dwdm) {
-  $("modal-mask").classList.remove("hidden");
+  const mask = $("modal-mask");
+  mask.classList.remove("hidden");
   $("modal-body").innerHTML = "加载中…";
-  const d = await fetchJSON("/api/schools/" + dwdm);
+  try {
+    var d = await fetchJSON("/api/schools/" + dwdm);
+  } catch (e) {
+    $("modal-body").innerHTML =
+      "<h2>加载失败</h2><p style='margin:12px 0;color:#b91c1c'>" + e.message +
+      "。若您是直接打开的本页文件，请先启动服务：" +
+      "<code>python app/server.py</code>，再访问 http://127.0.0.1:5000</p>";
+    return;
+  }
   const s = d.school;
   const byMajor = {};
   for (const a of d.admissions) {
@@ -119,6 +128,51 @@ async function openDetail(dwdm) {
       ${s.sr_cs_rank ? `｜计算机学科排名 ${s.sr_cs_rank}` : ""}
     </div>
     ${majorSec || "<p>未收录该校计算机方向专业。</p>"}`;
+  try {
+    const nat = await fetchNatLines();
+    $("modal-body").innerHTML += linesHTML(d.zhx_lines || [], nat);
+  } catch (e) { /* 分数线加载失败不影响主体 */ }
+}
+
+let natLines = null;   // 工学国家线缓存
+
+async function fetchNatLines() {
+  if (natLines) return natLines;
+  try {
+    const d = await fetchJSON("/api/lines");
+    natLines = d;  // 成功才缓存，失败下次重试
+    return d;
+  } catch (e) {
+    return [];
+  }
+}
+
+function linesHTML(zhxLines, nat) {
+  let h = '<div class="sec-title">分数线参考</div>';
+  if (zhxLines && zhxLines.length) {
+    h += '<p class="fsx-note">该校为 34 所自划线院校，复试基本分数线公告如下（分数表见图片）：</p>';
+    for (const z of zhxLines) {
+      const imgs = (z.imgs || "").split("|").filter(Boolean);
+      h += `<div class="zhx-year">${z.year} 年：
+        <a href="${z.article_url}" target="_blank" rel="noopener">研招网公告原文</a>
+        ${z.pdf ? `｜<a href="${z.pdf}" target="_blank" rel="noopener">PDF 下载</a>` : ""}</div>`;
+      for (const u of imgs) {
+        h += `<img class="fsx-img" loading="lazy" src="${u}" alt="${z.year}年复试分数线">`;
+      }
+    }
+  } else {
+    h += '<p class="fsx-note">该校执行国家线（非自划线）。计算机学硕（0812/0835/0839）与电子信息专硕（0854）均执行工学门类「其他学科专业」基本要求：</p>';
+  }
+  if (nat && nat.length) {
+    h += `<table class="fsx-table">
+      <tr><th>年份</th><th>A区总分</th><th>A区单科</th><th>B区总分</th><th>B区单科</th></tr>`;
+    for (const r of nat) {
+      h += `<tr><td>${r.year}</td><td><b>${r.a_total}</b></td><td>${r.a1} / ${r.a2}</td>
+        <td>${r.b_total}</td><td>${r.b1} / ${r.b2}</td></tr>`;
+    }
+    h += `</table><p class="fsx-note">注：单科为（满分=100 / 满分&gt;100）；自划线校院系线、非自划线校实际复试线可能高于上述基本要求。</p>`;
+  }
+  return h;
 }
 
 function bindEvents() {
@@ -143,6 +197,12 @@ function bindEvents() {
 
 async function init() {
   bindEvents();
+  if (location.protocol === "file:") {
+    $("empty").textContent =
+      "本页面需要通过服务访问：先运行 python app/server.py，再用浏览器打开 http://127.0.0.1:5000";
+    $("empty").classList.remove("hidden");
+    return;
+  }
   try {
     const meta = await fetchJSON("/api/meta");
     for (const p of meta.provinces) {

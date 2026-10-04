@@ -1,0 +1,2374 @@
+{
+ "national": [
+  {
+   "year": "2026",
+   "category": "哲学",
+   "code": "01",
+   "sub": "各学科专业",
+   "a_total": 326,
+   "a1": 41,
+   "a2": 62,
+   "b_total": 316,
+   "b1": 38,
+   "b2": 57
+  },
+  {
+   "year": "2026",
+   "category": "经济学",
+   "code": "02",
+   "sub": "各学科专业",
+   "a_total": 324,
+   "a1": 40,
+   "a2": 60,
+   "b_total": 314,
+   "b1": 37,
+   "b2": 56
+  },
+  {
+   "year": "2026",
+   "category": "法学",
+   "code": "03",
+   "sub": "各学科专业",
+   "a_total": 321,
+   "a1": 40,
+   "a2": 60,
+   "b_total": 311,
+   "b1": 37,
+   "b2": 56
+  },
+  {
+   "year": "2026",
+   "category": "教育学",
+   "code": "04",
+   "sub": "体育学[0403]、体育[0452]",
+   "a_total": 310,
+   "a1": 38,
+   "a2": 114,
+   "b_total": 300,
+   "b1": 35,
+   "b2": 105
+  },
+  {
+   "year": "2026",
+   "category": "教育学",
+   "code": "04",
+   "sub": "教育[0451]、国际中文教育[0453]",
+   "a_total": 347,
+   "a1": 48,
+   "a2": 72,
+   "b_total": 337,
+   "b1": 45,
+   "b2": 68
+  },
+  {
+   "year": "2026",
+   "category": "教育学",
+   "code": "04",
+   "sub": "其他学科专业",
+   "a_total": 347,
+   "a1": 48,
+   "a2": 144,
+   "b_total": 337,
+   "b1": 45,
+   "b2": 135
+  },
+  {
+   "year": "2026",
+   "category": "文学",
+   "code": "05",
+   "sub": "各学科专业",
+   "a_total": 354,
+   "a1": 48,
+   "a2": 72,
+   "b_total": 344,
+   "b1": 45,
+   "b2": 68
+  },
+  {
+   "year": "2026",
+   "category": "历史学",
+   "code": "06",
+   "sub": "各学科专业",
+   "a_total": 341,
+   "a1": 45,
+   "a2": 135,
+   "b_total": 331,
+   "b1": 42,
+   "b2": 126
+  },
+  {
+   "year": "2026",
+   "category": "理学",
+   "code": "07",
+   "sub": "各学科专业",
+   "a_total": 275,
+   "a1": 35,
+   "a2": 53,
+   "b_total": 265,
+   "b1": 32,
+   "b2": 48
+  },
+  {
+   "year": "2026",
+   "category": "工学",
+   "code": "08",
+   "sub": "工学照顾专业⑤",
+   "a_total": 251,
+   "a1": 33,
+   "a2": 50,
+   "b_total": 241,
+   "b1": 30,
+   "b2": 45
+  },
+  {
+   "year": "2026",
+   "category": "工学",
+   "code": "08",
+   "sub": "其他学科专业",
+   "a_total": 264,
+   "a1": 35,
+   "a2": 53,
+   "b_total": 254,
+   "b1": 32,
+   "b2": 48
+  },
+  {
+   "year": "2026",
+   "category": "农学",
+   "code": "09",
+   "sub": "各学科专业",
+   "a_total": 240,
+   "a1": 33,
+   "a2": 50,
+   "b_total": 230,
+   "b1": 30,
+   "b2": 45
+  },
+  {
+   "year": "2026",
+   "category": "医学",
+   "code": "10",
+   "sub": "各学科专业",
+   "a_total": 294,
+   "a1": 36,
+   "a2": 108,
+   "b_total": 284,
+   "b1": 33,
+   "b2": 99
+  },
+  {
+   "year": "2026",
+   "category": "军事学",
+   "code": "11",
+   "sub": "各学科专业",
+   "a_total": 260,
+   "a1": 34,
+   "a2": 51,
+   "b_total": 250,
+   "b1": 31,
+   "b2": 47
+  },
+  {
+   "year": "2026",
+   "category": "管理学",
+   "code": "12",
+   "sub": "工商管理[1251]",
+   "a_total": 146,
+   "a1": 35,
+   "a2": 70,
+   "b_total": 136,
+   "b1": 30,
+   "b2": 60
+  },
+  {
+   "year": "2026",
+   "category": "管理学",
+   "code": "12",
+   "sub": "公共管理[1252]",
+   "a_total": 168,
+   "a1": 39,
+   "a2": 78,
+   "b_total": 158,
+   "b1": 34,
+   "b2": 68
+  },
+  {
+   "year": "2026",
+   "category": "管理学",
+   "code": "12",
+   "sub": "会计[1253]、图书情报[1255]、审计[1257]",
+   "a_total": 199,
+   "a1": 51,
+   "a2": 102,
+   "b_total": 189,
+   "b1": 46,
+   "b2": 92
+  },
+  {
+   "year": "2026",
+   "category": "管理学",
+   "code": "12",
+   "sub": "旅游管理[1254]",
+   "a_total": 151,
+   "a1": 35,
+   "a2": 70,
+   "b_total": 141,
+   "b1": 30,
+   "b2": 60
+  },
+  {
+   "year": "2026",
+   "category": "管理学",
+   "code": "12",
+   "sub": "工程管理[1256]",
+   "a_total": 166,
+   "a1": 39,
+   "a2": 78,
+   "b_total": 156,
+   "b1": 34,
+   "b2": 68
+  },
+  {
+   "year": "2026",
+   "category": "管理学",
+   "code": "12",
+   "sub": "其他学科专业",
+   "a_total": 332,
+   "a1": 41,
+   "a2": 62,
+   "b_total": 322,
+   "b1": 38,
+   "b2": 57
+  },
+  {
+   "year": "2026",
+   "category": "艺术学",
+   "code": "13",
+   "sub": "各学科专业",
+   "a_total": 354,
+   "a1": 38,
+   "a2": 57,
+   "b_total": 344,
+   "b1": 35,
+   "b2": 53
+  },
+  {
+   "year": "2026",
+   "category": "交叉学科",
+   "code": "14",
+   "sub": "各学科专业",
+   "a_total": 266,
+   "a1": 35,
+   "a2": 53,
+   "b_total": 256,
+   "b1": 32,
+   "b2": 48
+  },
+  {
+   "year": "2025",
+   "category": "哲学",
+   "code": "01",
+   "sub": "各学科专业",
+   "a_total": 321,
+   "a1": 39,
+   "a2": 59,
+   "b_total": 311,
+   "b1": 36,
+   "b2": 54
+  },
+  {
+   "year": "2025",
+   "category": "经济学",
+   "code": "02",
+   "sub": "各学科专业",
+   "a_total": 323,
+   "a1": 40,
+   "a2": 60,
+   "b_total": 313,
+   "b1": 37,
+   "b2": 56
+  },
+  {
+   "year": "2025",
+   "category": "法学",
+   "code": "03",
+   "sub": "各学科专业",
+   "a_total": 323,
+   "a1": 40,
+   "a2": 60,
+   "b_total": 313,
+   "b1": 37,
+   "b2": 56
+  },
+  {
+   "year": "2025",
+   "category": "教育学",
+   "code": "04",
+   "sub": "体育学[0403]、体育[0452]",
+   "a_total": 304,
+   "a1": 36,
+   "a2": 108,
+   "b_total": 294,
+   "b1": 33,
+   "b2": 99
+  },
+  {
+   "year": "2025",
+   "category": "教育学",
+   "code": "04",
+   "sub": "教育[0451]、国际中文教育[0453]",
+   "a_total": 341,
+   "a1": 45,
+   "a2": 68,
+   "b_total": 331,
+   "b1": 42,
+   "b2": 63
+  },
+  {
+   "year": "2025",
+   "category": "教育学",
+   "code": "04",
+   "sub": "其他学科专业",
+   "a_total": 341,
+   "a1": 45,
+   "a2": 135,
+   "b_total": 331,
+   "b1": 42,
+   "b2": 126
+  },
+  {
+   "year": "2025",
+   "category": "文学",
+   "code": "05",
+   "sub": "各学科专业",
+   "a_total": 351,
+   "a1": 47,
+   "a2": 71,
+   "b_total": 341,
+   "b1": 44,
+   "b2": 66
+  },
+  {
+   "year": "2025",
+   "category": "历史学",
+   "code": "06",
+   "sub": "各学科专业",
+   "a_total": 336,
+   "a1": 43,
+   "a2": 129,
+   "b_total": 326,
+   "b1": 40,
+   "b2": 120
+  },
+  {
+   "year": "2025",
+   "category": "理学",
+   "code": "07",
+   "sub": "各学科专业",
+   "a_total": 274,
+   "a1": 34,
+   "a2": 51,
+   "b_total": 264,
+   "b1": 31,
+   "b2": 47
+  },
+  {
+   "year": "2025",
+   "category": "工学",
+   "code": "08",
+   "sub": "工学照顾专业③",
+   "a_total": 251,
+   "a1": 33,
+   "a2": 50,
+   "b_total": 241,
+   "b1": 30,
+   "b2": 45
+  },
+  {
+   "year": "2025",
+   "category": "工学",
+   "code": "08",
+   "sub": "其他学科专业",
+   "a_total": 260,
+   "a1": 34,
+   "a2": 51,
+   "b_total": 250,
+   "b1": 31,
+   "b2": 47
+  },
+  {
+   "year": "2025",
+   "category": "农学",
+   "code": "09",
+   "sub": "各学科专业",
+   "a_total": 245,
+   "a1": 33,
+   "a2": 50,
+   "b_total": 235,
+   "b1": 30,
+   "b2": 45
+  },
+  {
+   "year": "2025",
+   "category": "医学",
+   "code": "10",
+   "sub": "各学科专业",
+   "a_total": 293,
+   "a1": 36,
+   "a2": 108,
+   "b_total": 283,
+   "b1": 33,
+   "b2": 99
+  },
+  {
+   "year": "2025",
+   "category": "军事学",
+   "code": "11",
+   "sub": "各学科专业",
+   "a_total": 260,
+   "a1": 34,
+   "a2": 51,
+   "b_total": 250,
+   "b1": 31,
+   "b2": 47
+  },
+  {
+   "year": "2025",
+   "category": "管理学",
+   "code": "12",
+   "sub": "工商管理[1251]、旅游管理[1254]",
+   "a_total": 151,
+   "a1": 35,
+   "a2": 70,
+   "b_total": 141,
+   "b1": 30,
+   "b2": 60
+  },
+  {
+   "year": "2025",
+   "category": "管理学",
+   "code": "12",
+   "sub": "公共管理[1252]",
+   "a_total": 164,
+   "a1": 38,
+   "a2": 76,
+   "b_total": 154,
+   "b1": 33,
+   "b2": 66
+  },
+  {
+   "year": "2025",
+   "category": "管理学",
+   "code": "12",
+   "sub": "会计[1253]、审计[1257]",
+   "a_total": 194,
+   "a1": 48,
+   "a2": 96,
+   "b_total": 184,
+   "b1": 43,
+   "b2": 86
+  },
+  {
+   "year": "2025",
+   "category": "管理学",
+   "code": "12",
+   "sub": "图书情报[1255]",
+   "a_total": 191,
+   "a1": 48,
+   "a2": 96,
+   "b_total": 181,
+   "b1": 43,
+   "b2": 86
+  },
+  {
+   "year": "2025",
+   "category": "管理学",
+   "code": "12",
+   "sub": "工程管理[1256]",
+   "a_total": 162,
+   "a1": 38,
+   "a2": 76,
+   "b_total": 152,
+   "b1": 33,
+   "b2": 66
+  },
+  {
+   "year": "2025",
+   "category": "管理学",
+   "code": "12",
+   "sub": "其他学科专业",
+   "a_total": 333,
+   "a1": 41,
+   "a2": 62,
+   "b_total": 323,
+   "b1": 38,
+   "b2": 57
+  },
+  {
+   "year": "2025",
+   "category": "艺术学",
+   "code": "13",
+   "sub": "各学科专业",
+   "a_total": 351,
+   "a1": 37,
+   "a2": 56,
+   "b_total": 341,
+   "b1": 34,
+   "b2": 51
+  },
+  {
+   "year": "2025",
+   "category": "交叉学科",
+   "code": "14",
+   "sub": "各学科专业",
+   "a_total": 266,
+   "a1": 34,
+   "a2": 51,
+   "b_total": 256,
+   "b1": 31,
+   "b2": 47
+  },
+  {
+   "year": "2024",
+   "category": "哲学",
+   "code": "01",
+   "sub": "各学科专业",
+   "a_total": 333,
+   "a1": 47,
+   "a2": 71,
+   "b_total": 323,
+   "b1": 44,
+   "b2": 66
+  },
+  {
+   "year": "2024",
+   "category": "经济学",
+   "code": "02",
+   "sub": "各学科专业",
+   "a_total": 338,
+   "a1": 47,
+   "a2": 71,
+   "b_total": 328,
+   "b1": 44,
+   "b2": 66
+  },
+  {
+   "year": "2024",
+   "category": "法学",
+   "code": "03",
+   "sub": "各学科专业",
+   "a_total": 331,
+   "a1": 47,
+   "a2": 71,
+   "b_total": 321,
+   "b1": 44,
+   "b2": 66
+  },
+  {
+   "year": "2024",
+   "category": "教育学",
+   "code": "04",
+   "sub": "体育学[0403]、体育[0452]",
+   "a_total": 313,
+   "a1": 41,
+   "a2": 123,
+   "b_total": 303,
+   "b1": 38,
+   "b2": 114
+  },
+  {
+   "year": "2024",
+   "category": "教育学",
+   "code": "04",
+   "sub": "教育[0451]、国际中文教育[0453]、学位授权自主审核单位自主设置的专业学位类别",
+   "a_total": 350,
+   "a1": 51,
+   "a2": 77,
+   "b_total": 340,
+   "b1": 48,
+   "b2": 72
+  },
+  {
+   "year": "2024",
+   "category": "教育学",
+   "code": "04",
+   "sub": "其他学科专业",
+   "a_total": 350,
+   "a1": 51,
+   "a2": 153,
+   "b_total": 340,
+   "b1": 48,
+   "b2": 144
+  },
+  {
+   "year": "2024",
+   "category": "文学",
+   "code": "05",
+   "sub": "各学科专业",
+   "a_total": 365,
+   "a1": 55,
+   "a2": 83,
+   "b_total": 355,
+   "b1": 52,
+   "b2": 78
+  },
+  {
+   "year": "2024",
+   "category": "历史学",
+   "code": "06",
+   "sub": "各学科专业",
+   "a_total": 345,
+   "a1": 49,
+   "a2": 147,
+   "b_total": 335,
+   "b1": 46,
+   "b2": 138
+  },
+  {
+   "year": "2024",
+   "category": "理学",
+   "code": "07",
+   "sub": "各学科专业",
+   "a_total": 288,
+   "a1": 41,
+   "a2": 62,
+   "b_total": 278,
+   "b1": 38,
+   "b2": 57
+  },
+  {
+   "year": "2024",
+   "category": "工学",
+   "code": "08",
+   "sub": "工学照顾专业③",
+   "a_total": 260,
+   "a1": 35,
+   "a2": 53,
+   "b_total": 250,
+   "b1": 32,
+   "b2": 48
+  },
+  {
+   "year": "2024",
+   "category": "工学",
+   "code": "08",
+   "sub": "其他学科专业",
+   "a_total": 273,
+   "a1": 37,
+   "a2": 56,
+   "b_total": 263,
+   "b1": 34,
+   "b2": 51
+  },
+  {
+   "year": "2024",
+   "category": "农学",
+   "code": "09",
+   "sub": "各学科专业",
+   "a_total": 251,
+   "a1": 33,
+   "a2": 50,
+   "b_total": 241,
+   "b1": 30,
+   "b2": 45
+  },
+  {
+   "year": "2024",
+   "category": "医学",
+   "code": "10",
+   "sub": "中医学[1005]、中西医结合[1006]、中医[1057]",
+   "a_total": 303,
+   "a1": 42,
+   "a2": 126,
+   "b_total": 293,
+   "b1": 39,
+   "b2": 117
+  },
+  {
+   "year": "2024",
+   "category": "医学",
+   "code": "10",
+   "sub": "其他学科专业",
+   "a_total": 304,
+   "a1": 42,
+   "a2": 126,
+   "b_total": 294,
+   "b1": 39,
+   "b2": 117
+  },
+  {
+   "year": "2024",
+   "category": "军事学",
+   "code": "11",
+   "sub": "各学科专业",
+   "a_total": 260,
+   "a1": 35,
+   "a2": 53,
+   "b_total": 250,
+   "b1": 32,
+   "b2": 48
+  },
+  {
+   "year": "2024",
+   "category": "管理学",
+   "code": "12",
+   "sub": "工商管理[1251]、旅游管理[1254]、学位授权自主审核单位自主设置的专业学位类别",
+   "a_total": 162,
+   "a1": 39,
+   "a2": 78,
+   "b_total": 152,
+   "b1": 34,
+   "b2": 68
+  },
+  {
+   "year": "2024",
+   "category": "管理学",
+   "code": "12",
+   "sub": "公共管理[1252]",
+   "a_total": 173,
+   "a1": 43,
+   "a2": 86,
+   "b_total": 163,
+   "b1": 38,
+   "b2": 76
+  },
+  {
+   "year": "2024",
+   "category": "管理学",
+   "code": "12",
+   "sub": "会计[1253]、审计[1257]",
+   "a_total": 201,
+   "a1": 52,
+   "a2": 104,
+   "b_total": 191,
+   "b1": 47,
+   "b2": 94
+  },
+  {
+   "year": "2024",
+   "category": "管理学",
+   "code": "12",
+   "sub": "图书情报[1255]",
+   "a_total": 198,
+   "a1": 51,
+   "a2": 102,
+   "b_total": 188,
+   "b1": 46,
+   "b2": 92
+  },
+  {
+   "year": "2024",
+   "category": "管理学",
+   "code": "12",
+   "sub": "工程管理[1256]",
+   "a_total": 176,
+   "a1": 43,
+   "a2": 86,
+   "b_total": 166,
+   "b1": 38,
+   "b2": 76
+  },
+  {
+   "year": "2024",
+   "category": "管理学",
+   "code": "12",
+   "sub": "其他学科专业",
+   "a_total": 347,
+   "a1": 49,
+   "a2": 74,
+   "b_total": 337,
+   "b1": 46,
+   "b2": 69
+  },
+  {
+   "year": "2024",
+   "category": "艺术学",
+   "code": "13",
+   "sub": "各学科专业",
+   "a_total": 362,
+   "a1": 40,
+   "a2": 60,
+   "b_total": 352,
+   "b1": 37,
+   "b2": 56
+  },
+  {
+   "year": "2024",
+   "category": "交叉学科",
+   "code": "14",
+   "sub": "各学科专业",
+   "a_total": 275,
+   "a1": 39,
+   "a2": 59,
+   "b_total": 265,
+   "b1": 36,
+   "b2": 54
+  },
+  {
+   "year": "2024",
+   "category": "交叉学科",
+   "code": "14",
+   "sub": "享受少数民族照顾政策考生⑤⑥",
+   "a_total": 251,
+   "a1": 30,
+   "a2": 45,
+   "b_total": 251,
+   "b1": 30,
+   "b2": 45
+  }
+ ],
+ "zhx": [
+  {
+   "school": "北京大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260313/2293450316.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293450317.png",
+    "https://t1.chei.com.cn/news/img/2293450318.jpg",
+    "https://t4.chei.com.cn/news/img/2293450319.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/北京大学/2026_0.png",
+    "/static/fsx/北京大学/2026_1.jpg",
+    "/static/fsx/北京大学/2026_2.png"
+   ]
+  },
+  {
+   "school": "北京大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293356009.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293356011.jpg",
+    "https://t1.chei.com.cn/news/img/2293356012.jpg",
+    "https://t4.chei.com.cn/news/img/2293356013.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/北京大学/2025_0.jpg",
+    "/static/fsx/北京大学/2025_1.jpg",
+    "/static/fsx/北京大学/2025_2.jpg"
+   ]
+  },
+  {
+   "school": "北京大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240313/2293269553.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293269554.png",
+    "https://t1.chei.com.cn/news/img/2293269555.png",
+    "https://t1.chei.com.cn/news/img/2293269556.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/北京大学/2024_0.png",
+    "/static/fsx/北京大学/2024_1.png",
+    "/static/fsx/北京大学/2024_2.png"
+   ]
+  },
+  {
+   "school": "中国人民大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451658.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293451659.png",
+    "https://t2.chei.com.cn/news/img/2293451660.png",
+    "https://t2.chei.com.cn/news/img/2293450437.png",
+    "https://t4.chei.com.cn/news/img/2293451661.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中国人民大学/2026_0.png",
+    "/static/fsx/中国人民大学/2026_1.png",
+    "/static/fsx/中国人民大学/2026_2.png",
+    "/static/fsx/中国人民大学/2026_3.png"
+   ]
+  },
+  {
+   "school": "中国人民大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250315/2293363141.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293363142.jpg",
+    "https://t1.chei.com.cn/news/img/2293363143.jpg",
+    "https://t2.chei.com.cn/news/img/2293363144.jpg",
+    "https://t4.chei.com.cn/news/img/2293363145.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中国人民大学/2025_0.jpg",
+    "/static/fsx/中国人民大学/2025_1.jpg",
+    "/static/fsx/中国人民大学/2025_2.jpg",
+    "/static/fsx/中国人民大学/2025_3.jpg"
+   ]
+  },
+  {
+   "school": "中国人民大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240319/2293271821.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293271822.png",
+    "https://t2.chei.com.cn/news/img/2293271823.png",
+    "https://t1.chei.com.cn/news/img/2293271824.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中国人民大学/2024_0.png",
+    "/static/fsx/中国人民大学/2024_1.png",
+    "/static/fsx/中国人民大学/2024_2.png"
+   ]
+  },
+  {
+   "school": "清华大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260313/2293450320.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293450321.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/清华大学/2026_0.png"
+   ]
+  },
+  {
+   "school": "清华大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293356006.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293356007.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/清华大学/2025_0.jpg"
+   ]
+  },
+  {
+   "school": "清华大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240313/2293269549.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293269550.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/清华大学/2024_0.jpg"
+   ]
+  },
+  {
+   "school": "北京航空航天大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451686.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293451687.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/北京航空航天大学/2026_0.png"
+   ]
+  },
+  {
+   "school": "北京航空航天大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293355991.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293355992.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/北京航空航天大学/2025_0.png"
+   ]
+  },
+  {
+   "school": "北京航空航天大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293271646.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293271647.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/北京航空航天大学/2024_0.png"
+   ]
+  },
+  {
+   "school": "北京理工大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293450427.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293450428.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/北京理工大学/2026_0.jpg"
+   ]
+  },
+  {
+   "school": "北京理工大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357804.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293357805.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/北京理工大学/2025_0.png"
+   ]
+  },
+  {
+   "school": "北京理工大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293271653.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293271654.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/北京理工大学/2024_0.png"
+   ]
+  },
+  {
+   "school": "中国农业大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260318/2293452066.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293452067.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中国农业大学/2026_0.png"
+   ]
+  },
+  {
+   "school": "中国农业大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357877.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293357878.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中国农业大学/2025_0.jpg"
+   ]
+  },
+  {
+   "school": "中国农业大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240314/2293265017.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293265018.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中国农业大学/2024_0.png"
+   ]
+  },
+  {
+   "school": "北京师范大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260313/2293451575.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293451576.png",
+    "https://t1.chei.com.cn/news/img/2293451577.png",
+    "https://t1.chei.com.cn/news/img/2293451578.png",
+    "https://t1.chei.com.cn/news/img/2293451579.png",
+    "https://t4.chei.com.cn/news/img/2293451580.png",
+    "https://t4.chei.com.cn/news/img/2293451581.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/北京师范大学/2026_0.png",
+    "/static/fsx/北京师范大学/2026_1.png",
+    "/static/fsx/北京师范大学/2026_2.png",
+    "/static/fsx/北京师范大学/2026_3.png",
+    "/static/fsx/北京师范大学/2026_4.png",
+    "/static/fsx/北京师范大学/2026_5.png"
+   ]
+  },
+  {
+   "school": "北京师范大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293356019.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293356020.jpg",
+    "https://t1.chei.com.cn/news/img/2293356021.jpg",
+    "https://t2.chei.com.cn/news/img/2293356022.jpg",
+    "https://t3.chei.com.cn/news/img/2293356023.jpg",
+    "https://t2.chei.com.cn/news/img/2293356024.jpg",
+    "https://t2.chei.com.cn/news/img/2293356025.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/北京师范大学/2025_0.jpg",
+    "/static/fsx/北京师范大学/2025_1.jpg",
+    "/static/fsx/北京师范大学/2025_2.jpg",
+    "/static/fsx/北京师范大学/2025_3.jpg",
+    "/static/fsx/北京师范大学/2025_4.jpg",
+    "/static/fsx/北京师范大学/2025_5.jpg"
+   ]
+  },
+  {
+   "school": "北京师范大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293269896.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293269897.png",
+    "https://t3.chei.com.cn/news/img/2293269898.png",
+    "https://t2.chei.com.cn/news/img/2293269899.png",
+    "https://t3.chei.com.cn/news/img/2293269900.png",
+    "https://t4.chei.com.cn/news/img/2293269901.png",
+    "https://t1.chei.com.cn/news/img/2293269902.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/北京师范大学/2024_0.png",
+    "/static/fsx/北京师范大学/2024_1.png",
+    "/static/fsx/北京师范大学/2024_2.png",
+    "/static/fsx/北京师范大学/2024_3.png",
+    "/static/fsx/北京师范大学/2024_4.png",
+    "/static/fsx/北京师范大学/2024_5.png"
+   ]
+  },
+  {
+   "school": "南开大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260313/2293451584.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293451585.jpg",
+    "https://t3.chei.com.cn/news/img/2293451586.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/南开大学/2026_0.jpg",
+    "/static/fsx/南开大学/2026_1.jpg"
+   ]
+  },
+  {
+   "school": "南开大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250314/2293362930.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293362931.jpg",
+    "https://t3.chei.com.cn/news/img/2293362932.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/南开大学/2025_0.jpg",
+    "/static/fsx/南开大学/2025_1.jpg"
+   ]
+  },
+  {
+   "school": "南开大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240316/2293271666.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293271667.jpg",
+    "https://t4.chei.com.cn/news/img/2293271668.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/南开大学/2024_0.jpg",
+    "/static/fsx/南开大学/2024_1.jpg"
+   ]
+  },
+  {
+   "school": "天津大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451649.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293451650.jpg",
+    "https://t4.chei.com.cn/news/img/2293451651.jpg",
+    "https://t3.chei.com.cn/news/img/2293451652.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/天津大学/2026_0.jpg",
+    "/static/fsx/天津大学/2026_1.jpg",
+    "/static/fsx/天津大学/2026_2.jpg"
+   ]
+  },
+  {
+   "school": "天津大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357892.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293357893.jpg",
+    "https://t2.chei.com.cn/news/img/2293357894.jpg",
+    "https://t3.chei.com.cn/news/img/2293357895.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/天津大学/2025_0.jpg",
+    "/static/fsx/天津大学/2025_1.jpg",
+    "/static/fsx/天津大学/2025_2.jpg"
+   ]
+  },
+  {
+   "school": "天津大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240314/2293265050.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293265051.png",
+    "https://t3.chei.com.cn/news/img/2293265052.png",
+    "https://t3.chei.com.cn/news/img/2293265053.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/天津大学/2024_0.png",
+    "/static/fsx/天津大学/2024_1.png",
+    "/static/fsx/天津大学/2024_2.png"
+   ]
+  },
+  {
+   "school": "大连理工大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451705.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293451706.png",
+    "https://t3.chei.com.cn/news/img/2293451707.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/大连理工大学/2026_0.png",
+    "/static/fsx/大连理工大学/2026_1.png"
+   ]
+  },
+  {
+   "school": "大连理工大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293361163.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293361164.jpg",
+    "https://t1.chei.com.cn/news/img/2293361165.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/大连理工大学/2025_0.jpg",
+    "/static/fsx/大连理工大学/2025_1.jpg"
+   ]
+  },
+  {
+   "school": "大连理工大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240318/2293271744.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293271745.png",
+    "https://t4.chei.com.cn/news/img/2293271746.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/大连理工大学/2024_0.png",
+    "/static/fsx/大连理工大学/2024_1.png"
+   ]
+  },
+  {
+   "school": "东北大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451677.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293451678.png",
+    "https://t4.chei.com.cn/news/img/2293451679.png",
+    "https://t4.chei.com.cn/news/img/2293451680.jpg",
+    "https://t1.chei.com.cn/news/img/2293451681.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/东北大学/2026_0.png",
+    "/static/fsx/东北大学/2026_1.png",
+    "/static/fsx/东北大学/2026_2.jpg",
+    "/static/fsx/东北大学/2026_3.png"
+   ]
+  },
+  {
+   "school": "东北大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357871.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293357885.jpg",
+    "https://t3.chei.com.cn/news/img/2293357886.jpg",
+    "https://t3.chei.com.cn/news/img/2293357887.jpg",
+    "https://t3.chei.com.cn/news/img/2293357888.jpg",
+    "https://t1.chei.com.cn/news/img/2293357889.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/东北大学/2025_0.jpg",
+    "/static/fsx/东北大学/2025_1.jpg",
+    "/static/fsx/东北大学/2025_2.jpg",
+    "/static/fsx/东北大学/2025_3.jpg",
+    "/static/fsx/东北大学/2025_4.jpg"
+   ]
+  },
+  {
+   "school": "东北大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293269912.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293269913.jpg",
+    "https://t3.chei.com.cn/news/img/2293269914.jpg",
+    "https://t2.chei.com.cn/news/img/2293269915.jpg",
+    "https://t2.chei.com.cn/news/img/2293269916.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/东北大学/2024_0.jpg",
+    "/static/fsx/东北大学/2024_1.jpg",
+    "/static/fsx/东北大学/2024_2.jpg",
+    "/static/fsx/东北大学/2024_3.jpg"
+   ]
+  },
+  {
+   "school": "吉林大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260318/2293452070.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293452071.png",
+    "https://t3.chei.com.cn/news/img/2293452072.jpeg",
+    "https://t1.chei.com.cn/news/img/2293452073.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/吉林大学/2026_0.png",
+    "/static/fsx/吉林大学/2026_1.jpeg",
+    "/static/fsx/吉林大学/2026_2.png"
+   ]
+  },
+  {
+   "school": "吉林大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250311/2293357676.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293357679.jpg",
+    "https://t4.chei.com.cn/news/img/2293357680.jpg",
+    "https://t3.chei.com.cn/news/img/2293357681.jpg",
+    "https://t4.chei.com.cn/news/img/2293357682.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/吉林大学/2025_0.jpg",
+    "/static/fsx/吉林大学/2025_1.jpg",
+    "/static/fsx/吉林大学/2025_2.jpg",
+    "/static/fsx/吉林大学/2025_3.jpg"
+   ]
+  },
+  {
+   "school": "吉林大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293269868.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293269871.jpg",
+    "https://t4.chei.com.cn/news/img/2293269872.png",
+    "https://t2.chei.com.cn/news/img/2293269873.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/吉林大学/2024_0.jpg",
+    "/static/fsx/吉林大学/2024_1.png",
+    "/static/fsx/吉林大学/2024_2.jpg"
+   ]
+  },
+  {
+   "school": "哈尔滨工业大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451664.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293451665.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/哈尔滨工业大学/2026_0.png"
+   ]
+  },
+  {
+   "school": "哈尔滨工业大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293357769.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293357771.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/哈尔滨工业大学/2025_0.png"
+   ]
+  },
+  {
+   "school": "哈尔滨工业大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240314/2293269728.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293269729.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/哈尔滨工业大学/2024_0.png"
+   ]
+  },
+  {
+   "school": "复旦大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260317/2293450581.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293450582.png",
+    "https://t4.chei.com.cn/news/img/2293450583.png",
+    "https://t4.chei.com.cn/news/img/2293450584.png",
+    "https://t2.chei.com.cn/news/img/2293450585.png",
+    "https://t3.chei.com.cn/news/img/2293450586.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/复旦大学/2026_0.png",
+    "/static/fsx/复旦大学/2026_1.png",
+    "/static/fsx/复旦大学/2026_2.png",
+    "/static/fsx/复旦大学/2026_3.png",
+    "/static/fsx/复旦大学/2026_4.png"
+   ]
+  },
+  {
+   "school": "复旦大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357798.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293357799.jpg",
+    "https://t2.chei.com.cn/news/img/2293357800.jpg",
+    "https://t3.chei.com.cn/news/img/2293357801.jpg",
+    "https://t3.chei.com.cn/news/img/2293357802.jpg",
+    "https://t2.chei.com.cn/news/img/2293357803.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/复旦大学/2025_0.jpg",
+    "/static/fsx/复旦大学/2025_1.jpg",
+    "/static/fsx/复旦大学/2025_2.jpg",
+    "/static/fsx/复旦大学/2025_3.jpg",
+    "/static/fsx/复旦大学/2025_4.jpg"
+   ]
+  },
+  {
+   "school": "复旦大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240318/2293271231.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293271232.png",
+    "https://t1.chei.com.cn/news/img/2293271233.png",
+    "https://t2.chei.com.cn/news/img/2293271234.png",
+    "https://t1.chei.com.cn/news/img/2293271235.png",
+    "https://t3.chei.com.cn/news/img/2293271236.png",
+    "https://t4.chei.com.cn/news/img/2293271237.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/复旦大学/2024_0.png",
+    "/static/fsx/复旦大学/2024_1.png",
+    "/static/fsx/复旦大学/2024_2.png",
+    "/static/fsx/复旦大学/2024_3.png",
+    "/static/fsx/复旦大学/2024_4.png",
+    "/static/fsx/复旦大学/2024_5.png"
+   ]
+  },
+  {
+   "school": "同济大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293450397.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293450398.png",
+    "https://t4.chei.com.cn/news/img/2293450399.png",
+    "https://t4.chei.com.cn/news/img/2293450400.png",
+    "https://t3.chei.com.cn/news/img/2293450401.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/同济大学/2026_0.png",
+    "/static/fsx/同济大学/2026_1.png",
+    "/static/fsx/同济大学/2026_2.png",
+    "/static/fsx/同济大学/2026_3.png"
+   ]
+  },
+  {
+   "school": "同济大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293356026.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293356027.jpg",
+    "https://t4.chei.com.cn/news/img/2293356028.jpg",
+    "https://t2.chei.com.cn/news/img/2293356029.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/同济大学/2025_0.jpg",
+    "/static/fsx/同济大学/2025_1.jpg",
+    "/static/fsx/同济大学/2025_2.jpg"
+   ]
+  },
+  {
+   "school": "同济大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293271671.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293271672.png",
+    "https://t3.chei.com.cn/news/img/2293271673.png",
+    "https://t3.chei.com.cn/news/img/2293271674.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/同济大学/2024_0.png",
+    "/static/fsx/同济大学/2024_1.png",
+    "/static/fsx/同济大学/2024_2.png"
+   ]
+  },
+  {
+   "school": "上海交通大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293450495.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293450496.png",
+    "https://t2.chei.com.cn/news/img/2293450497.png",
+    "https://t2.chei.com.cn/news/img/2293450498.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/上海交通大学/2026_0.png",
+    "/static/fsx/上海交通大学/2026_1.png",
+    "/static/fsx/上海交通大学/2026_2.png"
+   ]
+  },
+  {
+   "school": "上海交通大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357812.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293357813.jpg",
+    "https://t4.chei.com.cn/news/img/2293357814.jpg",
+    "https://t3.chei.com.cn/news/img/2293357815.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/上海交通大学/2025_0.jpg",
+    "/static/fsx/上海交通大学/2025_1.jpg",
+    "/static/fsx/上海交通大学/2025_2.jpg"
+   ]
+  },
+  {
+   "school": "上海交通大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240313/2293269707.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293269708.jpg",
+    "https://t1.chei.com.cn/news/img/2293269709.jpg",
+    "https://t2.chei.com.cn/news/img/2293269710.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/上海交通大学/2024_0.jpg",
+    "/static/fsx/上海交通大学/2024_1.jpg",
+    "/static/fsx/上海交通大学/2024_2.jpg"
+   ]
+  },
+  {
+   "school": "南京大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451654.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293451655.png",
+    "https://t1.chei.com.cn/news/img/2293451656.png",
+    "https://t4.chei.com.cn/news/img/2293450439.png",
+    "https://t3.chei.com.cn/news/img/2293451657.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/南京大学/2026_0.png",
+    "/static/fsx/南京大学/2026_1.png",
+    "/static/fsx/南京大学/2026_2.png",
+    "/static/fsx/南京大学/2026_3.png"
+   ]
+  },
+  {
+   "school": "南京大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250314/2293362923.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293362924.png",
+    "https://t3.chei.com.cn/news/img/2293362925.png",
+    "https://t4.chei.com.cn/news/img/2293362926.png",
+    "https://t1.chei.com.cn/news/img/2293362927.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/南京大学/2025_0.png",
+    "/static/fsx/南京大学/2025_1.png",
+    "/static/fsx/南京大学/2025_2.png",
+    "/static/fsx/南京大学/2025_3.png"
+   ]
+  },
+  {
+   "school": "南京大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240318/2293271810.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293271811.png",
+    "https://t1.chei.com.cn/news/img/2293271812.png",
+    "https://t2.chei.com.cn/news/img/2293271813.png",
+    "https://t4.chei.com.cn/news/img/2293271814.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/南京大学/2024_0.png",
+    "/static/fsx/南京大学/2024_1.png",
+    "/static/fsx/南京大学/2024_2.png",
+    "/static/fsx/南京大学/2024_3.png"
+   ]
+  },
+  {
+   "school": "东南大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451708.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293451709.png",
+    "https://t3.chei.com.cn/news/img/2293451710.png",
+    "https://t1.chei.com.cn/news/img/2293451711.png",
+    "https://t1.chei.com.cn/news/img/2293451712.png",
+    "https://t1.chei.com.cn/news/img/2293451713.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/东南大学/2026_0.png",
+    "/static/fsx/东南大学/2026_1.png",
+    "/static/fsx/东南大学/2026_2.png",
+    "/static/fsx/东南大学/2026_3.png",
+    "/static/fsx/东南大学/2026_4.png"
+   ]
+  },
+  {
+   "school": "东南大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250314/2293363042.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293363043.png",
+    "https://t2.chei.com.cn/news/img/2293363044.jpg",
+    "https://t4.chei.com.cn/news/img/2293363045.jpg",
+    "https://t1.chei.com.cn/news/img/2293363046.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/东南大学/2025_0.png",
+    "/static/fsx/东南大学/2025_1.jpg",
+    "/static/fsx/东南大学/2025_2.jpg",
+    "/static/fsx/东南大学/2025_3.png"
+   ]
+  },
+  {
+   "school": "东南大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293269846.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293269847.png",
+    "https://t1.chei.com.cn/news/img/2293269848.png",
+    "https://t3.chei.com.cn/news/img/2293269849.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/东南大学/2024_0.png",
+    "/static/fsx/东南大学/2024_1.png",
+    "/static/fsx/东南大学/2024_2.png"
+   ]
+  },
+  {
+   "school": "浙江大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451645.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293451646.png",
+    "https://t2.chei.com.cn/news/img/2293451647.png",
+    "https://t3.chei.com.cn/news/img/2293451648.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/浙江大学/2026_0.png",
+    "/static/fsx/浙江大学/2026_1.png",
+    "/static/fsx/浙江大学/2026_2.png"
+   ]
+  },
+  {
+   "school": "浙江大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357790.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293357791.jpg",
+    "https://t4.chei.com.cn/news/img/2293357792.jpg",
+    "https://t2.chei.com.cn/news/img/2293357793.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/浙江大学/2025_0.jpg",
+    "/static/fsx/浙江大学/2025_1.jpg",
+    "/static/fsx/浙江大学/2025_2.jpg"
+   ]
+  },
+  {
+   "school": "浙江大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240314/2293269759.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293269760.png",
+    "https://t2.chei.com.cn/news/img/2293269761.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/浙江大学/2024_0.png",
+    "/static/fsx/浙江大学/2024_1.png"
+   ]
+  },
+  {
+   "school": "中国科学技术大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451669.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293451670.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中国科学技术大学/2026_0.png"
+   ]
+  },
+  {
+   "school": "中国科学技术大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293357758.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293357759.jpg",
+    "https://t2.chei.com.cn/news/img/2293357760.jpg",
+    "https://t3.chei.com.cn/news/img/2293357761.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中国科学技术大学/2025_0.jpg",
+    "/static/fsx/中国科学技术大学/2025_1.jpg",
+    "/static/fsx/中国科学技术大学/2025_2.jpg"
+   ]
+  },
+  {
+   "school": "中国科学技术大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240318/2293271130.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293271131.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中国科学技术大学/2024_0.png"
+   ]
+  },
+  {
+   "school": "厦门大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451690.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293451691.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/厦门大学/2026_0.png"
+   ]
+  },
+  {
+   "school": "厦门大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250315/2293363150.html",
+   "imgs": [],
+   "pdf": "",
+   "imgs_local": []
+  },
+  {
+   "school": "厦门大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293269958.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293269959.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/厦门大学/2024_0.png"
+   ]
+  },
+  {
+   "school": "山东大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451694.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293451695.png",
+    "https://t4.chei.com.cn/news/img/2293451696.png",
+    "https://t2.chei.com.cn/news/img/2293451697.png",
+    "https://t4.chei.com.cn/news/img/2293451698.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/山东大学/2026_0.png",
+    "/static/fsx/山东大学/2026_1.png",
+    "/static/fsx/山东大学/2026_2.png",
+    "/static/fsx/山东大学/2026_3.png"
+   ]
+  },
+  {
+   "school": "山东大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293357952.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293357953.jpg",
+    "https://t1.chei.com.cn/news/img/2293357954.jpg",
+    "https://t4.chei.com.cn/news/img/2293357955.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/山东大学/2025_0.jpg",
+    "/static/fsx/山东大学/2025_1.jpg",
+    "/static/fsx/山东大学/2025_2.jpg"
+   ]
+  },
+  {
+   "school": "山东大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293265092.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293265093.jpg",
+    "https://t4.chei.com.cn/news/img/2293265094.jpg",
+    "https://t3.chei.com.cn/news/img/2293265095.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/山东大学/2024_0.jpg",
+    "/static/fsx/山东大学/2024_1.jpg",
+    "/static/fsx/山东大学/2024_2.jpg"
+   ]
+  },
+  {
+   "school": "武汉大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451720.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293451722.png",
+    "https://t1.chei.com.cn/news/img/2293451723.png",
+    "https://t1.chei.com.cn/news/img/2293451724.png",
+    "https://t2.chei.com.cn/news/img/2293451725.png",
+    "https://t2.chei.com.cn/news/img/2293451726.png",
+    "https://t1.chei.com.cn/news/img/2293451727.png",
+    "https://t2.chei.com.cn/news/img/2293451728.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/武汉大学/2026_0.png",
+    "/static/fsx/武汉大学/2026_1.png",
+    "/static/fsx/武汉大学/2026_2.png",
+    "/static/fsx/武汉大学/2026_3.png",
+    "/static/fsx/武汉大学/2026_4.png",
+    "/static/fsx/武汉大学/2026_5.png",
+    "/static/fsx/武汉大学/2026_6.png"
+   ]
+  },
+  {
+   "school": "武汉大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293361213.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293451735.png",
+    "https://t3.chei.com.cn/news/img/2293451736.png",
+    "https://t3.chei.com.cn/news/img/2293451737.png",
+    "https://t3.chei.com.cn/news/img/2293451738.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/武汉大学/2025_0.png",
+    "/static/fsx/武汉大学/2025_1.png",
+    "/static/fsx/武汉大学/2025_2.png",
+    "/static/fsx/武汉大学/2025_3.png"
+   ]
+  },
+  {
+   "school": "武汉大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293269858.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293271834.png",
+    "https://t4.chei.com.cn/news/img/2293271835.png",
+    "https://t2.chei.com.cn/news/img/2293271836.png",
+    "https://t3.chei.com.cn/news/img/2293271837.png",
+    "https://t3.chei.com.cn/news/img/2293271838.png",
+    "https://t3.chei.com.cn/news/img/2293271839.png",
+    "https://t2.chei.com.cn/news/img/2293271840.png",
+    "https://t2.chei.com.cn/news/img/2293271841.png",
+    "https://t1.chei.com.cn/news/img/2293271842.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/武汉大学/2024_0.png",
+    "/static/fsx/武汉大学/2024_1.png",
+    "/static/fsx/武汉大学/2024_2.png",
+    "/static/fsx/武汉大学/2024_3.png",
+    "/static/fsx/武汉大学/2024_4.png",
+    "/static/fsx/武汉大学/2024_5.png",
+    "/static/fsx/武汉大学/2024_6.png",
+    "/static/fsx/武汉大学/2024_7.png",
+    "/static/fsx/武汉大学/2024_8.png"
+   ]
+  },
+  {
+   "school": "华中科技大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293450423.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293450424.png",
+    "https://t4.chei.com.cn/news/img/2293450425.png",
+    "https://t4.chei.com.cn/news/img/2293450426.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/华中科技大学/2026_0.png",
+    "/static/fsx/华中科技大学/2026_1.png",
+    "/static/fsx/华中科技大学/2026_2.png"
+   ]
+  },
+  {
+   "school": "华中科技大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250315/2293363146.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293363147.jpg",
+    "https://t3.chei.com.cn/news/img/2293363148.jpg",
+    "https://t3.chei.com.cn/news/img/2293363149.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/华中科技大学/2025_0.jpg",
+    "/static/fsx/华中科技大学/2025_1.jpg",
+    "/static/fsx/华中科技大学/2025_2.jpg"
+   ]
+  },
+  {
+   "school": "华中科技大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240322/2293272539.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293272540.jpg",
+    "https://t4.chei.com.cn/news/img/2293272541.jpg",
+    "https://t3.chei.com.cn/news/img/2293272542.jpg",
+    "https://t4.chei.com.cn/news/img/2293272543.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/华中科技大学/2024_0.jpg",
+    "/static/fsx/华中科技大学/2024_1.jpg",
+    "/static/fsx/华中科技大学/2024_2.jpg",
+    "/static/fsx/华中科技大学/2024_3.jpg"
+   ]
+  },
+  {
+   "school": "湖南大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451672.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293451673.png",
+    "https://t1.chei.com.cn/news/img/2293451674.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/湖南大学/2026_0.png",
+    "/static/fsx/湖南大学/2026_1.png"
+   ]
+  },
+  {
+   "school": "湖南大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250318/2293363539.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293363540.jpg",
+    "https://t1.chei.com.cn/news/img/2293363541.jpg",
+    "https://t4.chei.com.cn/news/img/2293363542.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/湖南大学/2025_0.jpg",
+    "/static/fsx/湖南大学/2025_1.jpg",
+    "/static/fsx/湖南大学/2025_2.jpg"
+   ]
+  },
+  {
+   "school": "湖南大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240319/2293271268.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293271269.png",
+    "https://t1.chei.com.cn/news/img/2293271270.png",
+    "https://t4.chei.com.cn/news/img/2293271271.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/湖南大学/2024_0.png",
+    "/static/fsx/湖南大学/2024_1.png",
+    "/static/fsx/湖南大学/2024_2.png"
+   ]
+  },
+  {
+   "school": "中南大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260317/2293450533.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293450534.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中南大学/2026_0.png"
+   ]
+  },
+  {
+   "school": "中南大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250315/2293363138.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293363139.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中南大学/2025_0.png"
+   ]
+  },
+  {
+   "school": "中南大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240318/2293271245.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293271246.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中南大学/2024_0.png"
+   ]
+  },
+  {
+   "school": "中山大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451641.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293451644.png",
+    "https://t4.chei.com.cn/news/img/2293451643.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中山大学/2026_0.png",
+    "/static/fsx/中山大学/2026_1.png"
+   ]
+  },
+  {
+   "school": "中山大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293361170.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293361171.jpg",
+    "https://t1.chei.com.cn/news/img/2293361172.jpg",
+    "https://t3.chei.com.cn/news/img/2293361173.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中山大学/2025_0.jpg",
+    "/static/fsx/中山大学/2025_1.jpg",
+    "/static/fsx/中山大学/2025_2.jpg"
+   ]
+  },
+  {
+   "school": "中山大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240313/2293269655.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293269656.png",
+    "https://t2.chei.com.cn/news/img/2293269657.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/中山大学/2024_0.png",
+    "/static/fsx/中山大学/2024_1.png"
+   ]
+  },
+  {
+   "school": "华南理工大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451699.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293451700.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/华南理工大学/2026_0.png"
+   ]
+  },
+  {
+   "school": "华南理工大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293361197.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293361201.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/华南理工大学/2025_0.png"
+   ]
+  },
+  {
+   "school": "华南理工大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240313/2293269715.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293269716.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/华南理工大学/2024_0.png"
+   ]
+  },
+  {
+   "school": "重庆大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451717.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293451718.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/重庆大学/2026_0.png"
+   ]
+  },
+  {
+   "school": "重庆大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250314/2293362917.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293362918.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/重庆大学/2025_0.jpg"
+   ]
+  },
+  {
+   "school": "重庆大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293271641.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293271642.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/重庆大学/2024_0.png"
+   ]
+  },
+  {
+   "school": "四川大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451701.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293451702.png",
+    "https://t1.chei.com.cn/news/img/2293451703.png",
+    "https://t1.chei.com.cn/news/img/2293451704.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/四川大学/2026_0.png",
+    "/static/fsx/四川大学/2026_1.png",
+    "/static/fsx/四川大学/2026_2.png"
+   ]
+  },
+  {
+   "school": "四川大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250313/2293361176.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293361177.jpg",
+    "https://t1.chei.com.cn/news/img/2293361178.jpg",
+    "https://t3.chei.com.cn/news/img/2293361179.jpg",
+    "https://t2.chei.com.cn/news/img/2293361180.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/四川大学/2025_0.jpg",
+    "/static/fsx/四川大学/2025_1.jpg",
+    "/static/fsx/四川大学/2025_2.jpg",
+    "/static/fsx/四川大学/2025_3.jpg"
+   ]
+  },
+  {
+   "school": "四川大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293265121.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293265122.png",
+    "https://t1.chei.com.cn/news/img/2293265123.png",
+    "https://t1.chei.com.cn/news/img/2293265124.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/四川大学/2024_0.png",
+    "/static/fsx/四川大学/2024_1.png",
+    "/static/fsx/四川大学/2024_2.png"
+   ]
+  },
+  {
+   "school": "电子科技大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451714.html",
+   "imgs": [
+    "https://t3.chei.com.cn/news/img/2293451715.png",
+    "https://t3.chei.com.cn/news/img/2293451716.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/电子科技大学/2026_0.png",
+    "/static/fsx/电子科技大学/2026_1.png"
+   ]
+  },
+  {
+   "school": "电子科技大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250315/2293363134.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293363135.jpg",
+    "https://t4.chei.com.cn/news/img/2293363136.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/电子科技大学/2025_0.jpg",
+    "/static/fsx/电子科技大学/2025_1.jpg"
+   ]
+  },
+  {
+   "school": "电子科技大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240318/2293271755.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293271756.png",
+    "https://t3.chei.com.cn/news/img/2293271757.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/电子科技大学/2024_0.png",
+    "/static/fsx/电子科技大学/2024_1.png"
+   ]
+  },
+  {
+   "school": "西安交通大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260313/2293451582.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293451583.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/西安交通大学/2026_0.png"
+   ]
+  },
+  {
+   "school": "西安交通大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250312/2293357773.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293357774.jpg",
+    "https://t1.chei.com.cn/news/img/2293357775.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/西安交通大学/2025_0.jpg",
+    "/static/fsx/西安交通大学/2025_1.jpg"
+   ]
+  },
+  {
+   "school": "西安交通大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293269852.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293269853.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/西安交通大学/2024_0.jpg"
+   ]
+  },
+  {
+   "school": "西北工业大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260316/2293451662.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293451663.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/西北工业大学/2026_0.png"
+   ]
+  },
+  {
+   "school": "西北工业大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250314/2293362919.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293362920.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/西北工业大学/2025_0.png"
+   ]
+  },
+  {
+   "school": "西北工业大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240315/2293271661.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293271662.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/西北工业大学/2024_0.jpg"
+   ]
+  },
+  {
+   "school": "兰州大学",
+   "year": "2026",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202603/20260317/2293450517.html",
+   "imgs": [
+    "https://t4.chei.com.cn/news/img/2293450518.jpg",
+    "https://t4.chei.com.cn/news/img/2293450519.png",
+    "https://t1.chei.com.cn/news/img/2293450520.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/兰州大学/2026_0.jpg",
+    "/static/fsx/兰州大学/2026_1.png",
+    "/static/fsx/兰州大学/2026_2.png"
+   ]
+  },
+  {
+   "school": "兰州大学",
+   "year": "2025",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202503/20250315/2293363154.html",
+   "imgs": [
+    "https://t1.chei.com.cn/news/img/2293363155.jpg",
+    "https://t1.chei.com.cn/news/img/2293363156.jpg",
+    "https://t2.chei.com.cn/news/img/2293363157.jpg"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/兰州大学/2025_0.jpg",
+    "/static/fsx/兰州大学/2025_1.jpg",
+    "/static/fsx/兰州大学/2025_2.jpg"
+   ]
+  },
+  {
+   "school": "兰州大学",
+   "year": "2024",
+   "article_url": "https://yz.chsi.com.cn/kyzx/fsfsx34/202403/20240320/2293271971.html",
+   "imgs": [
+    "https://t2.chei.com.cn/news/img/2293271972.png",
+    "https://t4.chei.com.cn/news/img/2293271973.png",
+    "https://t2.chei.com.cn/news/img/2293271974.png"
+   ],
+   "pdf": "",
+   "imgs_local": [
+    "/static/fsx/兰州大学/2024_0.png",
+    "/static/fsx/兰州大学/2024_1.png",
+    "/static/fsx/兰州大学/2024_2.png"
+   ]
+  }
+ ]
+}
