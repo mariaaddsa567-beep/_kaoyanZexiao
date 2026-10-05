@@ -1,219 +1,289 @@
-const GROUP_NAMES = { cs: "计算机科学与技术", se: "软件工程", cyb: "网络空间安全", xx: "电子信息" };
-const $ = (id) => document.getElementById(id);
-let debounceTimer = null;
+/* 考研择校助手 v3 —— 408 专项重构：冲稳保推荐 / 院校库 / 志愿对比 */
+"use strict";
 
-async function fetchJSON(url) {
-  const r = await fetch(url);
-  if (!r.ok) throw new Error("HTTP " + r.status);
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const normName = (s) => String(s || "").replace(/（/g, "(").replace(/）/g, ")").replace(/\s/g, "");
+
+async function fetchJSON(url, opts) {
+  const r = await fetch(url, opts);
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
   return r.json();
 }
 
-function query() {
-  const p = new URLSearchParams();
-  const kw = $("f-kw").value.trim();
-  const province = $("f-province").value;
-  const tag = $("f-tag").value;
-  const group = $("f-group").value;
-  const sort = $("f-sort").value;
-  const s408 = $("f-408").checked ? "1" : "";
-  const xxfs = $("f-xxfs").checked ? "1" : "";
-  if (kw) p.set("k", kw);
-  if (province) p.set("province", province);
-  if (tag !== "all") p.set("tag", tag);
-  if (group) p.set("group", group);
-  if (s408) p.set("subject408", s408);
-  if (xxfs) p.set("xxfs", xxfs);
-  p.set("sort", sort);
-  return p.toString();
+let META = null;
+let FAVS = JSON.parse(localStorage.getItem("favs") || "[]");
+
+/* ---------- Tab 切换 ---------- */
+document.querySelectorAll(".tab").forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll(".tab").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".tab-page").forEach(p => p.classList.remove("active"));
+    btn.classList.add("active");
+    $(`tab-${btn.dataset.tab}`).classList.add("active");
+    if (btn.dataset.tab === "cmp") renderCompare();
+  };
+});
+
+/* ---------- 冲稳保推荐 ---------- */
+async function initProfile() {
+  if (!META) return;
+  $("pf-prov").innerHTML = `<option value="">不限</option>` +
+    META.provinces.map(p => `<option>${esc(p)}</option>`).join("");
 }
 
-function tagHTML(s) {
-  let h = "";
-  if (s.is_985) h += '<span class="tag t985">985</span>';
-  if (s.is_211) h += '<span class="tag t211">211</span>';
-  if (s.is_zhx) h += '<span class="tag tzhx">自划线</span>';
-  if (s.has_408) h += '<span class="tag t408">408 统考</span>';
-  return h;
+function collectProfile() {
+  const provs = [...$("pf-prov").selectedOptions].map(o => o.value).filter(Boolean);
+  const levels = [$("pf-lv985"), $("pf-lv211")].filter(c => c.checked).map(c => c.value);
+  return {
+    total: +$("pf-total").value || 0,
+    math_type: $("pf-math").value,
+    english_type: $("pf-english").value,
+    degree_pref: [$("pf-degree").value].filter(Boolean),
+    provinces: provs,
+    level_pref: levels,
+  };
 }
 
-function rankHTML(s) {
-  let h = "";
-  if (s.sr_rank) h += `<span>综合 <b>${s.sr_rank}</b></span>`;
-  if (s.sr_cs_rank) h += `<span>计算机学科 <b>${s.sr_cs_rank}</b></span>`;
-  if (s.sr_se_rank) h += `<span>软件工程 <b>${s.sr_se_rank}</b></span>`;
-  if (s.sr_cyb_rank) h += `<span>网安 <b>${s.sr_cyb_rank}</b></span>`;
-  return h || "<span>—</span>";
+function tierCard(r) {
+  const confBadge = r.confidence === "A" ? '<span class="badge cA">置信A</span>'
+    : r.confidence === "B" ? '<span class="badge cB">置信B·OCR</span>'
+    : '<span class="badge cC">置信C·基准</span>';
+  const trend = (r.trend || []).map(([y, v]) => `${y}:${v}`).join(" → ") || "暂无";
+  const main = r.insufficient
+    ? `区间 <b>${r.line_range[0]}~${r.line_range[1]}</b><span class="hint">（数据不足，不给具体概率）</span>`
+    : `<b>${r.predict_line}</b>　你的差值 <b class="${r.diff >= 0 ? "up" : "down"}">${r.diff >= 0 ? "+" : ""}${r.diff}</b>　概率 <b>${r.prob}%</b>`;
+  return `<div class="rec-card">
+    <div class="rec-head">
+      <b>${esc(r.school)}</b>
+      <span class="badge">${esc(r.province)}</span>
+      ${r.is_985 ? '<span class="badge">985</span>' : ""}${r.is_211 ? '<span class="badge">211</span>' : ""}
+      ${r.sr_cs_rank ? `<span class="badge">学科排名${r.sr_cs_rank}</span>` : ""}
+      ${confBadge}
+      <button class="ghost fav-btn" data-dwdm="${r.dwdm}">☆收藏</button>
+    </div>
+    <div class="rec-meta">${esc(r.college)}｜${esc(r.major_name)}（${esc(r.major_code)}）｜${esc(r.degree_type)}｜名额 ${r.plan_total ?? "—"}</div>
+    <div class="rec-line">${main}</div>
+    <details><summary>为什么推荐 / 计算依据</summary>
+      <ul>
+        <li>预测依据：${esc(r.note)}；近三年线：${esc(trend)}</li>
+        <li>σ=${r.sigma}（波动），模型：sigmoid((你的总分−预测线)/(σ/1.5))，规则 v1</li>
+        ${r.risks.map(x => `<li class="risk">⚠ ${esc(x)}</li>`).join("")}
+        ${r.plan_total <= 10 ? '<li class="risk">⚠ 名额少，推免占比未知，请核实该校推免名单</li>' : ""}
+      </ul>
+    </details>
+  </div>`;
 }
 
-function render(list) {
-  const box = $("list");
-  box.innerHTML = "";
-  if (!list.length) { $("empty").classList.remove("hidden"); return; }
-  $("empty").classList.add("hidden");
-  for (const s of list) {
-    const groups = (s.groups || "").split(",").filter(Boolean)
-      .map((g) => GROUP_NAMES[g] || g).join(" / ");
-    const div = document.createElement("div");
-    div.className = "card";
-    div.onclick = () => openDetail(s.dwdm);
-    div.innerHTML = `
-      <div class="top"><h3>${s.name}</h3><span class="code">${s.dwdm}</span></div>
-      <div class="tags">${tagHTML(s)}</div>
-      <div class="meta">
-        地区：<b>${s.province || "—"}</b>｜类型：${s.category || "—"}<br>
-        专业点：<b>${s.major_cnt}</b> 个｜拟招生：<b>${s.quota ?? "—"}</b> 人
-        ${groups ? `<br>开设：${groups}` : ""}
-      </div>
-      <div class="ranks">${rankHTML(s)}</div>`;
-    box.appendChild(div);
-  }
-}
-
-async function load() {
+async function doRecommend() {
+  $("rec-status").textContent = "计算中…";
   try {
-    render(await fetchJSON("/api/schools?" + query()));
+    const d = await fetchJSON("/api/recommend", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(collectProfile()),
+    });
+    if (d.error) { $("rec-status").textContent = d.error; return; }
+    $("rec-status").textContent = `共匹配 ${d.count} 个 408 报考点`;
+    const sec = (t, arr, extra) => `<div class="tier"><h3 class="t-${t}">${t}${extra}</h3>
+      ${arr.length ? arr.map(tierCard).join("") : '<p class="hint">暂无</p>'}</div>`;
+    $("rec-result").innerHTML = `
+      <div class="tiers">
+        ${sec("冲", d.tiers["冲"], "（概率&lt;35%）")}${sec("稳", d.tiers["稳"], "（35%~70%）")}${sec("保", d.tiers["保"], "（≥70%）")}
+      </div>
+      ${d.tiers["?"].length ? sec("数据不足", d.tiers["?"], "") : ""}
+      <p class="disclaimer">${esc(d.disclaimer)}</p>`;
+    bindFav();
   } catch (e) {
-    $("list").innerHTML = "";
-    $("empty").textContent = "加载失败：" + e.message;
-    $("empty").classList.remove("hidden");
+    $("rec-status").textContent = "推荐失败：" + e.message;
   }
+}
+
+/* ---------- 院校库 ---------- */
+async function loadSchools() {
+  const p = new URLSearchParams({
+    k: $("f-k").value.trim(), province: $("f-prov").value, tag: $("f-tag").value,
+    group: $("f-group").value, subject408: $("f-408").value === "1" ? "1" : "",
+    sort: $("f-sort").value,
+  });
+  try {
+    const rows = await fetchJSON("/api/schools?" + p);
+    $("grid").innerHTML = rows.map(cardHTML).join("") ||
+      '<p class="hint">没有符合条件的院校</p>';
+    bindFav();
+  } catch (e) {
+    $("grid").innerHTML = `<p class="hint">加载失败：${esc(e.message)}（请确认服务已启动）</p>`;
+  }
+}
+
+function cardHTML(s) {
+  return `<div class="card" data-dwdm="${s.dwdm}">
+    <button class="fav-btn ${FAVS.includes(s.dwdm) ? "on" : ""}" data-dwdm="${s.dwdm}"
+      title="加入对比">${FAVS.includes(s.dwdm) ? "★" : "☆"}</button>
+    <h3>${esc(s.name)}</h3>
+    <div class="meta">${esc(s.province)}｜${s.is_985 ? "985 " : ""}${s.is_211 ? "211 " : ""}${s.is_zhx ? "自划线" : ""}</div>
+    <div class="meta">综合排名 ${s.sr_rank ?? "—"}｜计算机学科 ${s.sr_cs_rank ?? "—"}｜名额 ${s.quota ?? "—"}</div>
+    ${s.has_408 ? '<span class="badge">408统考</span>' : ""}
+  </div>`;
+}
+
+/* ---------- 详情弹层 ---------- */
+let natLines = null;
+async function fetchNatLines() {
+  if (natLines) return natLines;
+  try { natLines = await fetchJSON("/api/lines"); } catch (e) { return []; }
+  return natLines;
+}
+
+function confBadge(c) {
+  return c === "A" ? '<span class="badge cA">A·官方</span>'
+    : c === "B" ? '<span class="badge cB">B·公告OCR</span>'
+    : '<span class="badge cC">C·估算</span>';
+}
+
+function linesHTML(zhxLines, nat, scores) {
+  let h = '<div class="sec-title">分数线参考</div>';
+  if (scores && scores.length) {
+    h += `<table class="fsx-table"><tr><th>年份</th><th>类型</th><th>线</th><th>单科</th><th>来源</th></tr>`;
+    for (const r of scores) {
+      h += `<tr><td>${esc(r.year)}</td><td>${r.scope === "school" ? "校线" : "国家线"} ${confBadge(r.confidence)}</td>
+        <td><b>${r.initial_line ?? "—"}</b></td><td>${r.single1 ?? "—"}/${r.single2 ?? "—"}</td>
+        <td class="src">${esc(r.source || "")}</td></tr>`;
+    }
+    h += "</table>";
+  } else if (zhxLines && zhxLines.length) {
+    h += '<p class="fsx-note">该校为 34 所自划线院校，复试基本分数线公告（分数表见图片，OCR 结构化数据整理中）：</p>';
+    for (const z of zhxLines) {
+      const imgs = (z.imgs || "").split("|").filter(Boolean);
+      h += `<div class="zhx-year">${esc(z.year)} 年：
+        <a href="${esc(z.article_url)}" target="_blank" rel="noopener">研招网公告原文</a></div>`;
+      for (const u of imgs) h += `<img class="fsx-img" loading="lazy" src="${u}" alt="${esc(z.year)}复试线">`;
+    }
+  } else {
+    h += '<p class="fsx-note">暂无校级线数据。计算机学硕（0812/0835/0839）与电子信息专硕（0854）执行工学国家线：</p>';
+  }
+  if ((!scores || !scores.some(s => s.scope === "national")) && nat && nat.length) {
+    h += `<table class="fsx-table"><tr><th>年份</th><th>A区总分</th><th>A区单科</th><th>B区总分</th><th>B区单科</th></tr>`;
+    for (const r of nat) h += `<tr><td>${esc(r.year)}</td><td><b>${r.a_total}</b></td>
+      <td>${r.a1}/${r.a2}</td><td>${r.b_total}</td><td>${r.b1}/${r.b2}</td></tr>`;
+    h += "</table>";
+  }
+  h += `<p class="fsx-note">注：单科为（满分=100 / 满分&gt;100）；实际院线可能高于校线。置信度：A=官方结构化，B=公告OCR识别，C=估算基准。</p>`;
+  return h;
 }
 
 async function openDetail(dwdm) {
   const mask = $("modal-mask");
   mask.classList.remove("hidden");
-  $("modal-body").innerHTML = "加载中…";
+  $("modal-body").innerHTML = '<p class="hint">加载中…</p>';
   try {
-    var d = await fetchJSON("/api/schools/" + dwdm);
-  } catch (e) {
-    $("modal-body").innerHTML =
-      "<h2>加载失败</h2><p style='margin:12px 0;color:#b91c1c'>" + e.message +
-      "。若您是直接打开的本页文件，请先启动服务：" +
-      "<code>python app/server.py</code>，再访问 http://127.0.0.1:5000</p>";
-    return;
-  }
-  const s = d.school;
-  const byMajor = {};
-  for (const a of d.admissions) {
-    (byMajor[a.zymc] ||= []).push(a);
-  }
-  let majorSec = "";
-  for (const m of d.majors) {
-    const rows = (byMajor[m.zymc] || [])
-      .map((a) => `
-        <tr>
-          <td>${a.yxsmc || "—"}</td>
-          <td>${a.yjfxmc || "—"}</td>
-          <td>${a.nzsrsstr || a.nzsrs || "—"}</td>
-          <td>${[a.km1, a.km2, a.km3, a.km4].filter(Boolean).join("<br>") || "—"}</td>
-          <td>${a.zybz ? `<span class="bz">${a.zybz.replace(/\n/g, "；")}</span>` : ""}</td>
-        </tr>`).join("");
-    majorSec += `
-      <div class="sec-title">${m.zymc}
-        <span class="badge">${m.xwlxmc}</span>
-        <span class="badge">${GROUP_NAMES[m.group_key] || ""}</span>
-        ${m.has_408 ? '<span class="badge">含 408</span>' : ""}
-      </div>
-      <table>
-        <tr><th>院系所</th><th>研究方向</th><th>拟招生</th><th>考试科目</th><th>备注</th></tr>
-        ${rows}
-      </table>`;
-  }
-  $("modal-body").innerHTML = `
-    <h2>${s.name} <span class="code">(${s.dwdm})</span></h2>
-    <div class="head-meta">
-      ${s.province || "—"}｜${s.category || "—"}｜
-      ${s.is_985 ? "985 " : ""}${s.is_211 ? "211 " : ""}${s.is_zhx ? "自划线" : ""}｜
-      综合排名 ${s.sr_rank ?? "—"}
-      ${s.sr_cs_rank ? `｜计算机学科排名 ${s.sr_cs_rank}` : ""}
-    </div>
-    ${majorSec || "<p>未收录该校计算机方向专业。</p>"}`;
-  try {
+    const d = await fetchJSON(`/api/schools/${dwdm}`);
+    const s = d.school;
+    const progSec = (d.programs || []).length ? `
+      <div class="sec-title">408 统考报考点</div>
+      <table class="pg-table"><tr><th>学院</th><th>专业</th><th>学位</th><th>数学</th><th>英语</th><th>名额</th></tr>
+      ${d.programs.filter(p => p.exam_type === "408").map(p => `<tr>
+        <td>${esc(p.college)}</td><td>${esc(p.major_name)}</td><td>${esc(p.degree_type)}</td>
+        <td>${esc(p.math_type) || "—"}</td><td>${esc(p.english_type) || "—"}</td>
+        <td>${p.plan_total ?? "—"}</td></tr>`).join("")}</table>` : "";
+    $("modal-body").innerHTML = `
+      <h2>${esc(s.name)} <span class="code">(${s.dwdm})</span></h2>
+      <div class="head-meta">${esc(s.province)}｜${esc(s.category)}｜
+        ${s.is_985 ? "985 " : ""}${s.is_211 ? "211 " : ""}${s.is_zhx ? "自划线" : ""}｜综合排名 ${s.sr_rank ?? "—"}</div>
+      ${progSec || "<p>无 408 统考报考点（可能有自命题，见下方专业列表）。</p>"}
+      <details><summary>全部专业/科目明细（研招网目录）</summary>
+        ${majorRows(d.majors || [])}
+      </details>`;
     const nat = await fetchNatLines();
-    $("modal-body").innerHTML += linesHTML(d.zhx_lines || [], nat);
-  } catch (e) { /* 分数线加载失败不影响主体 */ }
-}
-
-let natLines = null;   // 工学国家线缓存
-
-async function fetchNatLines() {
-  if (natLines) return natLines;
-  try {
-    const d = await fetchJSON("/api/lines");
-    natLines = d;  // 成功才缓存，失败下次重试
-    return d;
+    $("modal-body").innerHTML += linesHTML(d.zhx_lines || [], nat, d.scores || []);
   } catch (e) {
-    return [];
+    $("modal-body").innerHTML = `<p>加载失败：${esc(e.message)}。请确认已运行 python app/server.py。</p>`;
   }
 }
 
-function linesHTML(zhxLines, nat) {
-  let h = '<div class="sec-title">分数线参考</div>';
-  if (zhxLines && zhxLines.length) {
-    h += '<p class="fsx-note">该校为 34 所自划线院校，复试基本分数线公告如下（分数表见图片）：</p>';
-    for (const z of zhxLines) {
-      const imgs = (z.imgs || "").split("|").filter(Boolean);
-      h += `<div class="zhx-year">${z.year} 年：
-        <a href="${z.article_url}" target="_blank" rel="noopener">研招网公告原文</a>
-        ${z.pdf ? `｜<a href="${z.pdf}" target="_blank" rel="noopener">PDF 下载</a>` : ""}</div>`;
-      for (const u of imgs) {
-        h += `<img class="fsx-img" loading="lazy" src="${u}" alt="${z.year}年复试分数线">`;
-      }
-    }
-  } else {
-    h += '<p class="fsx-note">该校执行国家线（非自划线）。计算机学硕（0812/0835/0839）与电子信息专硕（0854）均执行工学门类「其他学科专业」基本要求：</p>';
-  }
-  if (nat && nat.length) {
-    h += `<table class="fsx-table">
-      <tr><th>年份</th><th>A区总分</th><th>A区单科</th><th>B区总分</th><th>B区单科</th></tr>`;
-    for (const r of nat) {
-      h += `<tr><td>${r.year}</td><td><b>${r.a_total}</b></td><td>${r.a1} / ${r.a2}</td>
-        <td>${r.b_total}</td><td>${r.b1} / ${r.b2}</td></tr>`;
-    }
-    h += `</table><p class="fsx-note">注：单科为（满分=100 / 满分&gt;100）；自划线校院系线、非自划线校实际复试线可能高于上述基本要求。</p>`;
-  }
-  return h;
+function majorRows(ms) {
+  if (!ms.length) return "<p>暂无数据</p>";
+  return `<table class="pg-table"><tr><th>专业</th><th>学位</th><th>名额</th><th>科目组合</th><th>408</th></tr>
+    ${ms.map(m => `<tr><td>${esc(m.zymc)}</td><td>${esc(m.xwlxmc)}</td>
+      <td>${m.nzsrs_sum ?? "—"}</td><td class="src">${esc(m.kskm_set || "")}</td>
+      <td>${m.has_408 ? "✓" : ""}</td></tr>`).join("")}</table>`;
 }
 
-function bindEvents() {
-  $("f-kw").addEventListener("input", () => {
-    clearTimeout(debounceTimer);
-    debounceTimer = setTimeout(load, 300);
+/* ---------- 志愿对比 ---------- */
+function saveFavs() {
+  localStorage.setItem("favs", JSON.stringify(FAVS));
+  $("fav-badge").textContent = FAVS.length || "";
+}
+
+function bindFav() {
+  document.querySelectorAll(".fav-btn").forEach(b => {
+    b.onclick = (ev) => {
+      ev.stopPropagation();
+      const id = b.dataset.dwdm;
+      const i = FAVS.indexOf(id);
+      if (i >= 0) FAVS.splice(i, 1);
+      else if (FAVS.length >= 5) { alert("对比最多 5 所（文档 P0-5）"); return; }
+      else FAVS.push(id);
+      saveFavs();
+      if ($("tab-lib").classList.contains("active")) loadSchools();
+      if ($("tab-cmp").classList.contains("active")) renderCompare();
+    };
   });
-  for (const id of ["f-province", "f-tag", "f-group", "f-sort", "f-408", "f-xxfs"]) {
-    $(id).addEventListener("change", load);
-  }
-  $("btn-reset").onclick = () => {
-    $("f-kw").value = ""; $("f-province").value = ""; $("f-tag").value = "all";
-    $("f-group").value = ""; $("f-sort").value = "sr_rank";
-    $("f-408").checked = false; $("f-xxfs").checked = false;
-    load();
+}
+
+async function renderCompare() {
+  if (!FAVS.length) { $("cmp-wrap").innerHTML = '<p class="hint">尚未添加对比院校。</p>'; return; }
+  const details = await Promise.all(FAVS.map(id => fetchJSON(`/api/schools/${id}`).catch(() => null)));
+  const ds = details.filter(Boolean);
+  if (!ds.length) { $("cmp-wrap").innerHTML = '<p class="hint">数据加载失败</p>'; return; }
+  const lineOf = (d) => {
+    const best = (d.scores || []).filter(s => s.scope === "school").sort((a, b) => b.year.localeCompare(a.year))[0];
+    return best ? `${best.year} 校线 ${best.initial_line}` : "—";
   };
-  $("modal-close").onclick = () => $("modal-mask").classList.add("hidden");
-  $("modal-mask").addEventListener("click", (e) => {
-    if (e.target === $("modal-mask")) $("modal-mask").classList.add("hidden");
-  });
+  const row = (label, fn) => `<tr><th>${label}</th>${ds.map(fn).join("")}</tr>`;
+  $("cmp-wrap").innerHTML = `<table class="cmp-table"><tbody>
+    ${row("院校", d => `<td>${esc(d.school.name)}<br><button class="ghost" onclick="removeFav('${d.school.dwdm}')">移除</button></td>`)}
+    ${row("省份/层次", d => `<td>${esc(d.school.province)}｜${d.school.is_985 ? "985" : d.school.is_211 ? "211" : ""}${d.school.is_zhx ? "·自划线" : ""}</td>`)}
+    ${row("综合/学科排名", d => `<td>${d.school.sr_rank ?? "—"} / ${d.school.sr_cs_rank ?? "—"}</td>`)}
+    ${row("408报考点数", d => `<td>${(d.programs || []).filter(p => p.exam_type === "408").length}</td>`)}
+    ${row("总名额", d => `<td>${(d.programs || []).filter(p => p.exam_type === "408").reduce((a, p) => a + (p.plan_total || 0), 0) || "—"}</td>`)}
+    ${row("最新校线", d => `<td>${lineOf(d)}</td>`)}
+    ${row("国家线", d => `<td>${(natLines || []).length ? natLines.map(n => `${n.year}:${n.a_total}`).join("<br>") : "—"}</td>`)}
+  </tbody></table>
+  <p class="disclaimer">对比数据仅供参考，以院校官方公告为准。</p>`;
+  bindFav();
 }
 
+window.removeFav = (id) => {
+  FAVS = FAVS.filter(x => x !== id);
+  saveFavs();
+  renderCompare();
+};
+
+/* ---------- 初始化 ---------- */
 async function init() {
-  bindEvents();
-  if (location.protocol === "file:") {
-    $("empty").textContent =
-      "本页面需要通过服务访问：先运行 python app/server.py，再用浏览器打开 http://127.0.0.1:5000";
-    $("empty").classList.remove("hidden");
+  saveFavs();
+  try {
+    META = await fetchJSON("/api/meta");
+    $("stats").textContent = `收录 ${META.stats.schools} 所院校 · 408 统考报考点 ${META.stats.programs408} 个 · 全部报考点 ${META.stats.programs_all} 个`;
+    $("f-prov").innerHTML = '<option value="">全部省份</option>' +
+      META.provinces.map(p => `<option>${esc(p)}</option>`).join("");
+    initProfile();
+  } catch (e) {
+    $("stats").textContent = "服务未启动：请在项目目录运行  python app/server.py 后刷新";
     return;
   }
-  try {
-    const meta = await fetchJSON("/api/meta");
-    for (const p of meta.provinces) {
-      const o = document.createElement("option");
-      o.value = p; o.textContent = p;
-      $("f-province").appendChild(o);
-    }
-    $("stats").textContent =
-      `${meta.stats.schools} 所院校 · ${meta.stats.points} 个专业点 · 拟招生 ${meta.stats.quota ?? "—"} 人`;
-  } catch (e) { /* 数据库未就绪时静默 */ }
-  load();
+  loadSchools();
+  $("btn-rec").onclick = doRecommend;
+  $("f-k").oninput = loadSchools;
+  ["f-prov", "f-tag", "f-group", "f-408", "f-sort"].forEach(id => { $(id).onchange = loadSchools; });
+  $("modal-close").onclick = () => $("modal-mask").classList.add("hidden");
+  $("modal-mask").onclick = (e) => { if (e.target.id === "modal-mask") $("modal-mask").classList.add("hidden"); };
+  $("btn-cmp-clear").onclick = () => { FAVS = []; saveFavs(); renderCompare(); };
+  $("grid").addEventListener("click", (e) => {
+    const c = e.target.closest(".card");
+    if (c && !e.target.classList.contains("fav-btn")) openDetail(c.dataset.dwdm);
+  });
 }
 
 init();

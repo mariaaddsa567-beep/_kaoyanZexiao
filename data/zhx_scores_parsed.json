@@ -1,0 +1,852 @@
+[
+ {
+  "dwdm": "10248",
+  "school": "上海交通大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 45,
+  "single2": 50
+ },
+ {
+  "dwdm": "10145",
+  "school": "东北大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 315,
+  "single1": 45,
+  "single2": 75
+ },
+ {
+  "dwdm": "10145",
+  "school": "东北大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 280,
+  "single1": 40,
+  "single2": 60
+ },
+ {
+  "dwdm": "10286",
+  "school": "东南大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 310,
+  "single1": 50,
+  "single2": null
+ },
+ {
+  "dwdm": "10286",
+  "school": "东南大学",
+  "year": "2025",
+  "major_code": "0812",
+  "subject": "工学",
+  "initial_line": 325,
+  "single1": 50,
+  "single2": 55
+ },
+ {
+  "dwdm": "10286",
+  "school": "东南大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 320,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10002",
+  "school": "中国人民大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 320,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10002",
+  "school": "中国人民大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 320,
+  "single1": 45,
+  "single2": 45
+ },
+ {
+  "dwdm": "10002",
+  "school": "中国人民大学",
+  "year": "2026",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 315,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10019",
+  "school": "中国农业大学",
+  "year": "2024",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 335,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10019",
+  "school": "中国农业大学",
+  "year": "2025",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 320,
+  "single1": 45,
+  "single2": 45
+ },
+ {
+  "dwdm": "10019",
+  "school": "中国农业大学",
+  "year": "2026",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 320,
+  "single1": 45,
+  "single2": 45
+ },
+ {
+  "dwdm": "10358",
+  "school": "中国科学技术大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 310,
+  "single1": 8,
+  "single2": 50
+ },
+ {
+  "dwdm": "10358",
+  "school": "中国科学技术大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 8,
+  "single2": 45
+ },
+ {
+  "dwdm": "10358",
+  "school": "中国科学技术大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 310,
+  "single1": 8,
+  "single2": 50
+ },
+ {
+  "dwdm": "10558",
+  "school": "中山大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 50,
+  "single2": 60
+ },
+ {
+  "dwdm": "10558",
+  "school": "中山大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 280,
+  "single1": 45,
+  "single2": 60
+ },
+ {
+  "dwdm": "10558",
+  "school": "中山大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 280,
+  "single1": 45,
+  "single2": 60
+ },
+ {
+  "dwdm": "10730",
+  "school": "兰州大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 280,
+  "single1": 40,
+  "single2": 65
+ },
+ {
+  "dwdm": "10730",
+  "school": "兰州大学",
+  "year": "2025",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 290,
+  "single1": 45,
+  "single2": 65
+ },
+ {
+  "dwdm": "10001",
+  "school": "北京大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 310,
+  "single1": 55,
+  "single2": 55
+ },
+ {
+  "dwdm": "10001",
+  "school": "北京大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10001",
+  "school": "北京大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 320,
+  "single1": 55,
+  "single2": 55
+ },
+ {
+  "dwdm": "10027",
+  "school": "北京师范大学",
+  "year": "2024",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 326,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10027",
+  "school": "北京师范大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 280,
+  "single1": 35,
+  "single2": 35
+ },
+ {
+  "dwdm": "10027",
+  "school": "北京师范大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 280,
+  "single1": 40,
+  "single2": 40
+ },
+ {
+  "dwdm": "10007",
+  "school": "北京理工大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 305,
+  "single1": 45,
+  "single2": 45
+ },
+ {
+  "dwdm": "10007",
+  "school": "北京理工大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 40,
+  "single2": 40
+ },
+ {
+  "dwdm": "10007",
+  "school": "北京理工大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 40,
+  "single2": 40
+ },
+ {
+  "dwdm": "10006",
+  "school": "北京航空航天大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 295,
+  "single1": 35,
+  "single2": 60
+ },
+ {
+  "dwdm": "10006",
+  "school": "北京航空航天大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 310,
+  "single1": 40,
+  "single2": 60
+ },
+ {
+  "dwdm": "10487",
+  "school": "华中科技大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10487",
+  "school": "华中科技大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 45,
+  "single2": 45
+ },
+ {
+  "dwdm": "10487",
+  "school": "华中科技大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10561",
+  "school": "华南理工大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 45,
+  "single2": 70
+ },
+ {
+  "dwdm": "10561",
+  "school": "华南理工大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 305,
+  "single1": 50,
+  "single2": 70
+ },
+ {
+  "dwdm": "10284",
+  "school": "南京大学",
+  "year": "2024",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 315,
+  "single1": 55,
+  "single2": 55
+ },
+ {
+  "dwdm": "10284",
+  "school": "南京大学",
+  "year": "2025",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 315,
+  "single1": 85,
+  "single2": 85
+ },
+ {
+  "dwdm": "10284",
+  "school": "南京大学",
+  "year": "2026",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 320,
+  "single1": 55,
+  "single2": 55
+ },
+ {
+  "dwdm": "10055",
+  "school": "南开大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10055",
+  "school": "南开大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 290,
+  "single1": 40,
+  "single2": 50
+ },
+ {
+  "dwdm": "10055",
+  "school": "南开大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 290,
+  "single1": 45,
+  "single2": 50
+ },
+ {
+  "dwdm": "10384",
+  "school": "厦门大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 310,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10183",
+  "school": "吉林大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 320,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10183",
+  "school": "吉林大学",
+  "year": "2025",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 310,
+  "single1": 45,
+  "single2": 45
+ },
+ {
+  "dwdm": "10183",
+  "school": "吉林大学",
+  "year": "2026",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 300,
+  "single1": 45,
+  "single2": 45
+ },
+ {
+  "dwdm": "10247",
+  "school": "同济大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 310,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10247",
+  "school": "同济大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 45,
+  "single2": 50
+ },
+ {
+  "dwdm": "10247",
+  "school": "同济大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 315,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10213",
+  "school": "哈尔滨工业大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 315,
+  "single1": 50,
+  "single2": 70
+ },
+ {
+  "dwdm": "10213",
+  "school": "哈尔滨工业大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 42,
+  "single2": 50
+ },
+ {
+  "dwdm": "10213",
+  "school": "哈尔滨工业大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 310,
+  "single1": 45,
+  "single2": 50
+ },
+ {
+  "dwdm": "10610",
+  "school": "四川大学",
+  "year": "2025",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 345,
+  "single1": 53,
+  "single2": 80
+ },
+ {
+  "dwdm": "10610",
+  "school": "四川大学",
+  "year": "2026",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 360,
+  "single1": 55,
+  "single2": 83
+ },
+ {
+  "dwdm": "10246",
+  "school": "复旦大学",
+  "year": "2024",
+  "major_code": "0812",
+  "subject": "工学",
+  "initial_line": 330,
+  "single1": 50,
+  "single2": 75
+ },
+ {
+  "dwdm": "10246",
+  "school": "复旦大学",
+  "year": "2025",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 300,
+  "single1": 50,
+  "single2": 75
+ },
+ {
+  "dwdm": "10246",
+  "school": "复旦大学",
+  "year": "2026",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 300,
+  "single1": 50,
+  "single2": 75
+ },
+ {
+  "dwdm": "10141",
+  "school": "大连理工大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 42,
+  "single2": 42
+ },
+ {
+  "dwdm": "10141",
+  "school": "大连理工大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 45,
+  "single2": 45
+ },
+ {
+  "dwdm": "10056",
+  "school": "天津大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 315,
+  "single1": 8,
+  "single2": 50
+ },
+ {
+  "dwdm": "10056",
+  "school": "天津大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 305,
+  "single1": 8,
+  "single2": 45
+ },
+ {
+  "dwdm": "10056",
+  "school": "天津大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 315,
+  "single1": 8,
+  "single2": 50
+ },
+ {
+  "dwdm": "10422",
+  "school": "山东大学",
+  "year": "2024",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 300,
+  "single1": 40,
+  "single2": 60
+ },
+ {
+  "dwdm": "10422",
+  "school": "山东大学",
+  "year": "2025",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 310,
+  "single1": 40,
+  "single2": 60
+ },
+ {
+  "dwdm": "10422",
+  "school": "山东大学",
+  "year": "2026",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 320,
+  "single1": 50,
+  "single2": 80
+ },
+ {
+  "dwdm": "10486",
+  "school": "武汉大学",
+  "year": "2024",
+  "major_code": "0812",
+  "subject": "工学",
+  "initial_line": 330,
+  "single1": 55,
+  "single2": 55
+ },
+ {
+  "dwdm": "10486",
+  "school": "武汉大学",
+  "year": "2025",
+  "major_code": "0812",
+  "subject": "工学",
+  "initial_line": 310,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10486",
+  "school": "武汉大学",
+  "year": "2026",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 370,
+  "single1": 59,
+  "single2": 90
+ },
+ {
+  "dwdm": "10335",
+  "school": "浙江大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 320,
+  "single1": 55,
+  "single2": 55
+ },
+ {
+  "dwdm": "10335",
+  "school": "浙江大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 8,
+  "single2": 50
+ },
+ {
+  "dwdm": "10335",
+  "school": "浙江大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 310,
+  "single1": 8,
+  "single2": 15
+ },
+ {
+  "dwdm": "10003",
+  "school": "清华大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 335,
+  "single1": 8,
+  "single2": 50
+ },
+ {
+  "dwdm": "10003",
+  "school": "清华大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 325,
+  "single1": 8,
+  "single2": 40
+ },
+ {
+  "dwdm": "10003",
+  "school": "清华大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 330,
+  "single1": 8,
+  "single2": 50
+ },
+ {
+  "dwdm": "10532",
+  "school": "湖南大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 50,
+  "single2": 70
+ },
+ {
+  "dwdm": "10532",
+  "school": "湖南大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 50,
+  "single2": 70
+ },
+ {
+  "dwdm": "10532",
+  "school": "湖南大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 305,
+  "single1": 50,
+  "single2": 75
+ },
+ {
+  "dwdm": "10614",
+  "school": "电子科技大学",
+  "year": "2024",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 285,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10614",
+  "school": "电子科技大学",
+  "year": "2025",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 285,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10614",
+  "school": "电子科技大学",
+  "year": "2026",
+  "major_code": "0854",
+  "subject": "电子信息",
+  "initial_line": 300,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10699",
+  "school": "西北工业大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 310,
+  "single1": 50,
+  "single2": 70
+ },
+ {
+  "dwdm": "10699",
+  "school": "西北工业大学",
+  "year": "2025",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 310,
+  "single1": 45,
+  "single2": 70
+ },
+ {
+  "dwdm": "10699",
+  "school": "西北工业大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 310,
+  "single1": 45,
+  "single2": 70
+ },
+ {
+  "dwdm": "10698",
+  "school": "西安交通大学",
+  "year": "2026",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 320,
+  "single1": 50,
+  "single2": 50
+ },
+ {
+  "dwdm": "10611",
+  "school": "重庆大学",
+  "year": "2024",
+  "major_code": "08",
+  "subject": "工学",
+  "initial_line": 300,
+  "single1": 45,
+  "single2": 65
+ }
+]
