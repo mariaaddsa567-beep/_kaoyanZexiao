@@ -417,6 +417,22 @@ def build():
               r["initial_line"], r.get("single1"), r.get("single2")) for r in parsed],
         )
 
+    # ---- 复试名单实际录取分数（confidence=A，来源各学院公示名单）----
+    admit_path = os.path.join(DATA, "admit_scores.json")
+    if os.path.exists(admit_path):
+        admit = json.load(open(admit_path, encoding="utf-8"))
+        for r in admit:
+            r["initial_line"] = r["admit_min"]  # 复试最低分即为院线
+        con.executemany(
+            """INSERT INTO score_records (dwdm,school_name,year,scope,major_code,subject,
+               initial_line,single1,single2,admit_min,admit_avg,admit_max,
+               interview_count,source,confidence,updated_at)
+               VALUES (:dwdm,:school_name,:year,'school',:major_code,:subject,
+               :initial_line,NULL,NULL,:admit_min,:admit_avg,:admit_max,
+               :interview_count,:source,'A','2026-10')""",
+            admit,
+        )
+
     con.commit()
     stat = {
         t: con.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]

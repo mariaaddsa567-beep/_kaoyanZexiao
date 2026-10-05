@@ -154,13 +154,31 @@ function confBadge(c) {
 function linesHTML(zhxLines, nat, scores) {
   let h = '<div class="sec-title">分数线参考</div>';
   if (scores && scores.length) {
-    h += `<table class="fsx-table"><tr><th>年份</th><th>类型</th><th>线</th><th>单科</th><th>来源</th></tr>`;
-    for (const r of scores) {
-      h += `<tr><td>${esc(r.year)}</td><td>${r.scope === "school" ? "校线" : "国家线"} ${confBadge(r.confidence)}</td>
-        <td><b>${r.initial_line ?? "—"}</b></td><td>${r.single1 ?? "—"}/${r.single2 ?? "—"}</td>
-        <td class="src">${esc(r.source || "")}</td></tr>`;
+    // 分离：有实际复试名单统计的 vs 仅校线的
+    const hasAdmit = scores.filter(s => s.admit_avg != null);
+    const onlyLine = scores.filter(s => s.admit_avg == null);
+    if (hasAdmit.length) {
+      h += '<div class="sub-title">复试名单实际分数（计算机学院公示）</div>';
+      h += `<table class="fsx-table"><tr><th>年份</th><th>专业</th><th>复试线</th><th>最低分</th><th>平均分</th><th>最高分</th><th>复试人数</th><th>来源</th></tr>`;
+      for (const r of hasAdmit) {
+        h += `<tr><td>${esc(r.year)}</td><td>${esc(r.subject || "")}</td>
+          <td><b>${r.initial_line ?? "—"}</b></td>
+          <td>${r.admit_min ?? "—"}</td><td><b class="avg">${r.admit_avg ?? "—"}</b></td>
+          <td>${r.admit_max ?? "—"}</td><td>${r.interview_count ?? "—"}</td>
+          <td class="src">${esc(r.source || "")} ${confBadge(r.confidence)}</td></tr>`;
+      }
+      h += "</table>";
     }
-    h += "</table>";
+    if (onlyLine.length) {
+      if (hasAdmit.length) h += '<div class="sub-title">校线（复试基本分数线）</div>';
+      h += `<table class="fsx-table"><tr><th>年份</th><th>类型</th><th>线</th><th>单科</th><th>来源</th></tr>`;
+      for (const r of onlyLine) {
+        h += `<tr><td>${esc(r.year)}</td><td>${r.scope === "school" ? "校线" : "国家线"} ${confBadge(r.confidence)}</td>
+          <td><b>${r.initial_line ?? "—"}</b></td><td>${r.single1 ?? "—"}/${r.single2 ?? "—"}</td>
+          <td class="src">${esc(r.source || "")}</td></tr>`;
+      }
+      h += "</table>";
+    }
   } else if (zhxLines && zhxLines.length) {
     h += '<p class="fsx-note">该校为 34 所自划线院校，复试基本分数线公告（分数表见图片，OCR 结构化数据整理中）：</p>';
     for (const z of zhxLines) {

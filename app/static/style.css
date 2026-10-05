@@ -82,6 +82,8 @@ main { max-width: 1200px; margin: 0 auto; padding: 16px; }
 .fsx-table th, .fsx-table td { border-bottom: 1px solid #eef1f6; padding: 7px 8px; text-align: center; }
 .fsx-table th { color: #8a94a6; font-weight: 500; }
 .fsx-table td b { color: #1e3a8a; }
+.fsx-table td b.avg { color: #dc2626; font-size: 15px; }
+.sub-title { font-size: 13px; color: #475569; font-weight: 600; margin: 12px 0 4px; padding-left: 8px; border-left: 3px solid #2563eb; }
 .zhx-year { font-size: 13px; margin: 10px 0 4px; color: #334; }
 .zhx-year a { color: #2563eb; }
 .fsx-img { display: block; max-width: 100%; border: 1px solid #e2e8f0; border-radius: 8px; margin: 8px 0; }

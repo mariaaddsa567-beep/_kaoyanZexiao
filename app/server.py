@@ -184,7 +184,8 @@ def program_detail(pid):
     if not rows:
         return jsonify({"error": "not found"}), 404
     prog = rows[0]
-    scores = q("""SELECT year, scope, subject, initial_line, single1, single2,
+    scores = q("""SELECT year, scope, major_code, subject, initial_line, single1, single2,
+                  admit_min, admit_avg, admit_max, interview_count,
                   source, confidence FROM score_records
                   WHERE dwdm=? OR (scope='national')
                   ORDER BY scope DESC, year DESC""", (prog["dwdm"],))
@@ -208,7 +209,8 @@ def school_detail(dwdm):
     programs = q("""SELECT id, college, major_code, major_name, degree_type, direction,
                     study_mode, exam_type, math_type, english_type, plan_total, plan_unified, kskm
                     FROM programs WHERE dwdm=? ORDER BY major_code, college""", (dwdm,))
-    scores = q("""SELECT year, scope, subject, initial_line, single1, single2,
+    scores = q("""SELECT year, scope, major_code, subject, initial_line, single1, single2,
+                  admit_min, admit_avg, admit_max, interview_count,
                   source, confidence FROM score_records
                   WHERE dwdm=? ORDER BY year DESC""", (dwdm,))
     zhx_lines = []
