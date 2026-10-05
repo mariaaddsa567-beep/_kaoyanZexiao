@@ -186,6 +186,18 @@ def norm(name: str) -> str:
 MATH_PAT = re.compile(r"数学[（(]([一二])[)）]|数学一|数学二")
 ENG_PAT = re.compile(r"英语[（(]([一二])[)）]|英语一|英语二")
 
+# 研招网真实统考名额在 nzsrsstr："专业：25(不含推免)" / "研究方向：5(不含推免)"；
+# nzsrs 字段约 70% 为 0，仅作兜底（仓库评审报告 问题1）。
+QUOTA_PAT = re.compile(r"(\d+)\s*\(\s*不含推免\s*\)")
+
+
+def quota_of(s: str) -> tuple[str, int] | None:
+    """从 nzsrsstr 解析 (层级, 名额)：major=专业级总数，dir=方向级名额。"""
+    m = QUOTA_PAT.search(s or "")
+    if not m:
+        return None
+    return ("major" if s.startswith("专业") else "dir"), int(m.group(1))
+
 
 def classify_exam(kms: list[str]) -> tuple[str, str, str]:
     """从初试科目文本判断 exam_type / math_type / english_type。"""
@@ -282,10 +294,17 @@ def build():
         }
         yxs, yjfx, nzsrs_sum, nzsrs_str, kmset, xxfsset, bz = set(), set(), 0, "", set(), set(), ""
         has408 = 0
+        # 专业级名额取 max（同专业各行写同一总数）；全为方向级则求和；否则回退 nzsrs
+        qs = [q for q in (quota_of(it.get("nzsrsstr")) for it in r["details"]) if q]
+        if any(lvl == "major" for lvl, _ in qs):
+            nzsrs_sum = max(n for lvl, n in qs if lvl == "major")
+        elif qs:
+            nzsrs_sum = sum(n for _, n in qs)
+        else:
+            nzsrs_sum = sum(int(it.get("nzsrs") or 0) for it in r["details"])
         for it in r["details"]:
             yxs.add(it.get("yxsmc") or "")
             yjfx.add(it.get("yjfxmc") or "")
-            nzsrs_sum += int(it.get("nzsrs") or 0)
             nzsrs_str = nzsrs_str or it.get("nzsrsstr") or ""
             kms = [km_texts(it, i) for i in (1, 2, 3, 4)]
             km = " | ".join(filter(None, kms))
@@ -306,7 +325,6 @@ def build():
             " || ".join(sorted(kmset)), has408,
             "、".join(sorted(x for x in xxfsset if x)), bz,
         ) if r["details"] else ("", 0, None, "", "", 0, "", "")
-
     con.executemany(
         "INSERT INTO majors VALUES (:zydm,:zymc,:group_key,:yjxkdm,:yjxkmc,:xwlx,:xwlxmc)",
         list(majors.values()),
@@ -334,13 +352,15 @@ def build():
         kms = [km1, km2, km3, km4]
         exam, mt, et = classify_exam(kms)
         mj = majors.get(zydm) or {}
+        q = quota_of(_nstr)
+        quota = q[1] if q else (int(nzsrs) if nzsrs else None)
         pg_rows.append({
             "dwdm": dwdm, "college": yxsmc or "未分学院", "major_code": zydm,
             "major_name": zymc or mj.get("zymc") or "",
             "degree_type": mj.get("xwlxmc") or "",
             "direction": yjfxmc or "", "study_mode": xxfs or "",
             "exam_type": exam, "math_type": mt, "english_type": et,
-            "plan_total": nzsrs, "plan_unified": nzsrs,
+            "plan_total": quota, "plan_unified": quota,
             "kskm": " | ".join(filter(None, kms)), "zybz": zybz or "",
             "ksfsmc": ksfsmc or "",
         })

@@ -42,6 +42,8 @@ main { max-width: 1200px; margin: 0 auto; padding: 16px; }
 .rec-card details { margin-top: 8px; font-size: 13px; }
 .rec-card details ul { padding-left: 18px; color: #556; }
 .rec-card .risk { color: #b45309; }
+.single-warn { background: #fef3c7; border-radius: 8px; padding: 6px 10px; margin-bottom: 8px; font-size: 13px; color: #b45309; font-weight: 600; }
+.first-card { border: 2px solid #6366f1; background: #f5f6ff; }
 
 .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
 .filters input, .filters select { border: 1px solid #dbe2ee; border-radius: 8px; padding: 7px 10px; font-size: 13px; background: #fff; }

@@ -73,18 +73,20 @@ def predict_for_school(dwdm: str, nat: dict) -> dict:
         sigma = _sigma(trend)
         conf = min((r["confidence"] for r in lines), default="B")
         note = "自划线院校公告校线"
+        s1 = next((r["single1"] for r in lines if r["single1"]), None)
         return {"base": base, "sigma": sigma, "trend": trend,
-                "confidence": conf, "years": len(trend), "note": note}
+                "confidence": conf, "years": len(trend), "note": note, "single1": s1}
     # 降级：国家线基准（confidence=C）
     nat_trend = [(y, v[0]) for y, v in sorted(nat.items(), reverse=True)]
     if nat_trend:
         base = _weighted_line(nat_trend)
         sigma = _sigma(nat_trend)
+        s1 = next((v[1] for y, v in sorted(nat.items(), reverse=True) if v[1]), None)
         return {"base": base, "sigma": sigma, "trend": nat_trend,
                 "confidence": "C", "years": len(nat_trend),
-                "note": "无校级公开线，以国家线为基准（实际复试线通常高于此）"}
+                "note": "无校级公开线，以国家线为基准（实际复试线通常高于此）", "single1": s1}
     return {"base": None, "sigma": SIGMA_FLOOR, "trend": [],
-            "confidence": "C", "years": 0, "note": "暂无分数数据"}
+            "confidence": "C", "years": 0, "note": "暂无分数数据", "single1": None}
 
 
 def hard_filter(p: dict, sch: dict, prog: dict) -> str | None:
@@ -120,10 +122,23 @@ def adjust_factor(sch: dict, prog: dict) -> tuple[float, list[str]]:
     if sch["is_zhx"]:
         f *= ADJUST_ZHX
         risks.append("自划线校：划线时间晚、波动大")
-    if (prog["plan_total"] or 0) <= 10:
+    quota = prog["plan_unified"] if prog.get("plan_unified") is not None else prog["plan_total"]
+    if (quota or 0) <= 10:
         f *= ADJUST_TUIMIAN
-        risks.append(f"拟招生仅 {prog['plan_total']} 人：推免挤压与波动风险高")
+        risks.append(f"统考名额仅 {quota} 人：推免挤压与波动风险高")
     return f, risks
+
+
+def single_check(profile: dict, single1) -> list[str]:
+    """单科线校验（评审问题5）：政治/外语单科线均为'满分=100'线 single1。"""
+    warns, s1 = [], single1
+    pol, eng = profile.get("politics"), profile.get("english_score")
+    if s1:
+        if pol and pol < s1:
+            warns.append(f"政治 {pol} 分低于单科线 {s1}，总分过线也无法进入复试")
+        if eng and eng < s1:
+            warns.append(f"英语 {eng} 分低于单科线 {s1}，总分过线也无法进入复试")
+    return warns
 
 
 def recommend(profile: dict, limit_per_tier: int = 8) -> dict:
@@ -138,8 +153,8 @@ def recommend(profile: dict, limit_per_tier: int = 8) -> dict:
     nat = national_base()
     cand = dbf.q("""
         SELECT p.id, p.dwdm, p.college, p.major_code, p.major_name, p.degree_type,
-               p.direction, p.study_mode, p.plan_total, p.kskm, p.math_type, p.english_type,
-               p.exam_type,
+               p.direction, p.study_mode, p.plan_total, p.plan_unified, p.kskm,
+               p.math_type, p.english_type, p.exam_type,
                s.name, s.province, s.is_985, s.is_211, s.is_zhx, s.sr_rank,
                s.sr_cs_rank, s.sr_cs_score
         FROM programs p JOIN schools s ON s.dwdm = p.dwdm
@@ -154,7 +169,7 @@ def recommend(profile: dict, limit_per_tier: int = 8) -> dict:
             continue
         key = (prog["dwdm"], prog["major_code"])
         cur = seen_school.get(key)
-        if cur is None or (prog["plan_total"] or 0) > (cur["plan_total"] or 0):
+        if cur is None or (prog["plan_unified"] or 0) > (cur["plan_unified"] or 0):
             prog["_sch"] = sch
             seen_school[key] = prog
 
@@ -168,13 +183,15 @@ def recommend(profile: dict, limit_per_tier: int = 8) -> dict:
         p_raw = _sigmoid((total - pred["base"]) / (pred["sigma"] / 1.5))
         p_val = p_raw * fac
         insufficient = pred["confidence"] == "C" or pred["years"] < 2
+        swarn = single_check(profile, pred.get("single1"))
         results.append({
             "school": prog["name"], "dwdm": prog["dwdm"],
             "province": prog["province"],
             "college": prog["college"], "major_code": prog["major_code"],
             "major_name": prog["major_name"], "degree_type": prog["degree_type"],
             "direction": prog["direction"], "study_mode": prog["study_mode"],
-            "plan_total": prog["plan_total"], "kskm": prog["kskm"],
+            "plan_unified": prog["plan_unified"] if prog["plan_unified"] is not None else prog["plan_total"],
+            "kskm": prog["kskm"],
             "sr_cs_rank": prog["sr_cs_rank"],
             "predict_line": round(pred["base"]) if not insufficient else None,
             "line_range": [round(pred["base"] - pred["sigma"]),
@@ -185,9 +202,11 @@ def recommend(profile: dict, limit_per_tier: int = 8) -> dict:
             "prob": None if insufficient else round(p_val * 100),
             "tier": ("冲" if p_val < TIER_CHONG else "稳" if p_val < TIER_WEN else "保"),
             "confidence": pred["confidence"],
+            "line_type": "校线" if pred["confidence"] in ("A", "B") else "国家线基准",
             "data_years": pred["years"],
             "note": pred["note"],
             "risks": risks,
+            "single_warn": swarn,
             "insufficient": insufficient,
         })
 
@@ -201,11 +220,21 @@ def recommend(profile: dict, limit_per_tier: int = 8) -> dict:
     combo = {"冲": 2, "稳": 3, "保": 2}
     plan = {t: tiers[t][:n] for t, n in combo.items()}
 
+    # 一志愿决策（评审建议：一志愿只能报一所 → 选 1 个主攻 + 调剂备选池）
+    # 规则：从"稳"档选过线概率最接近 65% 的；稳档为空则从保/冲档选概率最高者
+    first = None
+    pool = [r for r in results if not r["insufficient"] and not r["single_warn"]]
+    wen = [r for r in pool if r["tier"] == "稳"] or pool
+    if wen:
+        first = min(wen, key=lambda r: abs(r["prob"] - 65))
+
     return {
         "pack": SUBJECT_PACK,
         "user_total": total,
         "count": len(results),
         "tiers": tiers,
         "plan": plan,
-        "disclaimer": "推荐结果基于公开数据估算，仅供参考，以院校官方公告为准；不构成任何录取承诺。",
+        "first_choice": first,
+        "disclaimer": "概率为「过复试线概率」估算：录取线通常高于复试线，须结合复试名单与拟录取公示；"
+                      "结果基于公开数据，仅供参考，以院校官方公告为准。不构成任何录取承诺。",
     }

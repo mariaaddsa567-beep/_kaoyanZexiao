@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>考研择校助手 · 408 专项</title>
-<link rel="stylesheet" href="style.css?v=3">
+<link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 <header>
@@ -23,6 +23,8 @@
     <h2>考生画像 <span class="hint">仅填部分字段也可用（文档 P0-1）</span></h2>
     <div class="form-grid">
       <label>预估总分(500) <input id="pf-total" type="number" min="0" max="500" placeholder="如 330"></label>
+      <label>政治分(选填) <input id="pf-politics" type="number" min="0" max="100" placeholder="校验单科线"></label>
+      <label>英语分(选填) <input id="pf-english-score" type="number" min="0" max="100" placeholder="校验单科线"></label>
       <label>数学类型
         <select id="pf-math"><option value="">不限</option><option>数一</option><option>数二</option></select></label>
       <label>英语类型
@@ -85,6 +87,6 @@
 </div>
 
 <footer>数据来源：研招网 / 软科 / 各校公告（OCR 识别，置信度见标注）· 仅供参考，以官方公告为准</footer>
-<script src="app.js?v=3"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>

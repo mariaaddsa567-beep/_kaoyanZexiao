@@ -166,7 +166,7 @@ def programs():
     SELECT p.id, p.dwdm, s.name AS school, s.province, s.is_985, s.is_211, s.is_zhx,
            s.sr_rank, s.sr_cs_rank, p.college, p.major_code, p.major_name,
            p.degree_type, p.direction, p.study_mode, p.math_type, p.english_type,
-           p.exam_type, p.plan_total, p.kskm
+           p.exam_type, p.plan_total, p.plan_unified, p.kskm
     FROM programs p JOIN schools s ON s.dwdm = p.dwdm
     LEFT JOIN majors m ON m.zydm = p.major_code
     WHERE {' AND '.join(where)}
@@ -206,7 +206,7 @@ def school_detail(dwdm):
         SELECT zymc, yxsmc, yjfxmc, nzsrs, nzsrsstr, ksfsmc, km1, km2, km3, km4, zybz
         FROM admissions WHERE dwdm=? ORDER BY zymc, yxsmc, yjfxdm""", (dwdm,))
     programs = q("""SELECT id, college, major_code, major_name, degree_type, direction,
-                    study_mode, exam_type, math_type, english_type, plan_total, kskm
+                    study_mode, exam_type, math_type, english_type, plan_total, plan_unified, kskm
                     FROM programs WHERE dwdm=? ORDER BY major_code, college""", (dwdm,))
     scores = q("""SELECT year, scope, subject, initial_line, single1, single2,
                   source, confidence FROM score_records

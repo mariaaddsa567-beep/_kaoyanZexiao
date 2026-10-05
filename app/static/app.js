@@ -37,6 +37,8 @@ function collectProfile() {
   const levels = [$("pf-lv985"), $("pf-lv211")].filter(c => c.checked).map(c => c.value);
   return {
     total: +$("pf-total").value || 0,
+    politics: +$("pf-politics").value || 0,
+    english_score: +$("pf-english-score").value || 0,
     math_type: $("pf-math").value,
     english_type: $("pf-english").value,
     degree_pref: [$("pf-degree").value].filter(Boolean),
@@ -50,10 +52,12 @@ function tierCard(r) {
     : r.confidence === "B" ? '<span class="badge cB">置信B·OCR</span>'
     : '<span class="badge cC">置信C·基准</span>';
   const trend = (r.trend || []).map(([y, v]) => `${y}:${v}`).join(" → ") || "暂无";
+  const quota = r.plan_unified ?? "—";
   const main = r.insufficient
     ? `区间 <b>${r.line_range[0]}~${r.line_range[1]}</b><span class="hint">（数据不足，不给具体概率）</span>`
-    : `<b>${r.predict_line}</b>　你的差值 <b class="${r.diff >= 0 ? "up" : "down"}">${r.diff >= 0 ? "+" : ""}${r.diff}</b>　概率 <b>${r.prob}%</b>`;
+    : `<b>${r.predict_line}</b>　你的差值 <b class="${r.diff >= 0 ? "up" : "down"}">${r.diff >= 0 ? "+" : ""}${r.diff}</b>　过线概率 <b>${r.prob}%</b><span class="hint">（${r.line_type}·${r.data_years}年数据）</span>`;
   return `<div class="rec-card">
+    ${(r.single_warn || []).map(w => `<div class="risk single-warn">⚠ 单科不过线：${esc(w)}</div>`).join("")}
     <div class="rec-head">
       <b>${esc(r.school)}</b>
       <span class="badge">${esc(r.province)}</span>
@@ -62,14 +66,14 @@ function tierCard(r) {
       ${confBadge}
       <button class="ghost fav-btn" data-dwdm="${r.dwdm}">☆收藏</button>
     </div>
-    <div class="rec-meta">${esc(r.college)}｜${esc(r.major_name)}（${esc(r.major_code)}）｜${esc(r.degree_type)}｜名额 ${r.plan_total ?? "—"}</div>
+    <div class="rec-meta">${esc(r.college)}｜${esc(r.major_name)}（${esc(r.major_code)}）｜${esc(r.degree_type)}｜统考名额 ${quota}</div>
     <div class="rec-line">${main}</div>
     <details><summary>为什么推荐 / 计算依据</summary>
       <ul>
         <li>预测依据：${esc(r.note)}；近三年线：${esc(trend)}</li>
-        <li>σ=${r.sigma}（波动），模型：sigmoid((你的总分−预测线)/(σ/1.5))，规则 v1</li>
+        <li>σ=${r.sigma}（波动），模型：sigmoid((你的总分−预测线)/(σ/1.5))，规则 v1；概率为过复试线概率，录取线通常更高</li>
         ${r.risks.map(x => `<li class="risk">⚠ ${esc(x)}</li>`).join("")}
-        ${r.plan_total <= 10 ? '<li class="risk">⚠ 名额少，推免占比未知，请核实该校推免名单</li>' : ""}
+        ${quota !== "—" && quota <= 10 ? '<li class="risk">⚠ 名额少，推免占比未知，请核实该校推免名单</li>' : ""}
       </ul>
     </details>
   </div>`;
@@ -85,11 +89,17 @@ async function doRecommend() {
     });
     if (d.error) { $("rec-status").textContent = d.error; return; }
     $("rec-status").textContent = `共匹配 ${d.count} 个 408 报考点`;
+    const first = d.first_choice ? `
+      <div class="rec-card first-card">
+        <div class="rec-head"><b>🎯 一志愿建议</b><span class="badge">一志愿只能报一所</span></div>
+        <div class="rec-meta">${esc(d.first_choice.school)}｜${esc(d.first_choice.major_name)}（${esc(d.first_choice.major_code)}）｜${esc(d.first_choice.college)}</div>
+        <div class="rec-line">预测线 <b>${d.first_choice.predict_line}</b>　过线概率 <b>${d.first_choice.prob}%</b>　<span class="hint">下方"稳/保"作为调剂与备选池</span></div>
+      </div>` : "";
     const sec = (t, arr, extra) => `<div class="tier"><h3 class="t-${t}">${t}${extra}</h3>
       ${arr.length ? arr.map(tierCard).join("") : '<p class="hint">暂无</p>'}</div>`;
-    $("rec-result").innerHTML = `
+    $("rec-result").innerHTML = `${first}
       <div class="tiers">
-        ${sec("冲", d.tiers["冲"], "（概率&lt;35%）")}${sec("稳", d.tiers["稳"], "（35%~70%）")}${sec("保", d.tiers["保"], "（≥70%）")}
+        ${sec("冲", d.tiers["冲"], "（过线概率&lt;35%）")}${sec("稳", d.tiers["稳"], "（35%~70%）")}${sec("保", d.tiers["保"], "（≥70%）")}
       </div>
       ${d.tiers["?"].length ? sec("数据不足", d.tiers["?"], "") : ""}
       <p class="disclaimer">${esc(d.disclaimer)}</p>`;
@@ -185,7 +195,7 @@ async function openDetail(dwdm) {
       ${d.programs.filter(p => p.exam_type === "408").map(p => `<tr>
         <td>${esc(p.college)}</td><td>${esc(p.major_name)}</td><td>${esc(p.degree_type)}</td>
         <td>${esc(p.math_type) || "—"}</td><td>${esc(p.english_type) || "—"}</td>
-        <td>${p.plan_total ?? "—"}</td></tr>`).join("")}</table>` : "";
+        <td>${p.plan_unified ?? p.plan_total ?? "—"}</td></tr>`).join("")}</table>` : "";
     $("modal-body").innerHTML = `
       <h2>${esc(s.name)} <span class="code">(${s.dwdm})</span></h2>
       <div class="head-meta">${esc(s.province)}｜${esc(s.category)}｜
@@ -246,7 +256,17 @@ async function renderCompare() {
     ${row("省份/层次", d => `<td>${esc(d.school.province)}｜${d.school.is_985 ? "985" : d.school.is_211 ? "211" : ""}${d.school.is_zhx ? "·自划线" : ""}</td>`)}
     ${row("综合/学科排名", d => `<td>${d.school.sr_rank ?? "—"} / ${d.school.sr_cs_rank ?? "—"}</td>`)}
     ${row("408报考点数", d => `<td>${(d.programs || []).filter(p => p.exam_type === "408").length}</td>`)}
-    ${row("总名额", d => `<td>${(d.programs || []).filter(p => p.exam_type === "408").reduce((a, p) => a + (p.plan_total || 0), 0) || "—"}</td>`)}
+    ${row("统考名额", d => {
+      const seen = {};
+      for (const p of d.programs || []) {
+        if (p.exam_type !== "408") continue;
+        const k = p.college + "|" + p.major_code;
+        const v = p.plan_unified ?? p.plan_total ?? 0;
+        seen[k] = Math.max(seen[k] || 0, v);
+      }
+      const sum = Object.values(seen).reduce((a, b) => a + b, 0);
+      return `<td>${sum || "—"}</td>`;
+    })}
     ${row("最新校线", d => `<td>${lineOf(d)}</td>`)}
     ${row("国家线", d => `<td>${(natLines || []).length ? natLines.map(n => `${n.year}:${n.a_total}`).join("<br>") : "—"}</td>`)}
   </tbody></table>
